@@ -1,0 +1,16 @@
+name: geosoil-cuba
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.12
+  - gdal
+  - geopandas
+  - rasterio
+  - shapely
+  - pyproj
+  - numpy
+  - scipy
+  - matplotlib
+  - jupyter

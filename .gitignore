@@ -1,0 +1,35 @@
+# Conda
+.conda/
+*.conda
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# GIS temporary files
+*.aux.xml
+*.ovr
+*.tfw
+*.cpg
+*.lock
+
+# Local data
+data/raw/*
+data/processed/*
+data/external/*
+
+# Generated outputs
+outputs/maps/*
+outputs/rasters/*
+outputs/statistics/*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

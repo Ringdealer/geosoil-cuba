@@ -1,0 +1,1 @@
+jupyter notebook --notebook-dir = "E:\DEV\PROJECTS\ACTIVE\GIS\LearningGIS"
