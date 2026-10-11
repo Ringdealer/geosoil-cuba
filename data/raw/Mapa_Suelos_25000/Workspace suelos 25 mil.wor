@@ -1,0 +1,329 @@
+!Workspace
+!Version  950
+!Charset WindowsLatin1
+Open Table "21 P. Río suelos 25 mil" As _21_P__Río_suelos_25_mil Interactive
+Open Table "22 Artemisa suelos 25 mil" As _22_Artemisa_suelos_25_mil Interactive
+Open Table "23 La Habana 25 mil" As _23_La_Habana_25_mil Interactive
+Open Table "24 Myb suelos 25 mil" As _24_Myb_suelos_25_mil Interactive
+Open Table "25 Matanzas suelos 25 mil" As _25_Matanzas_suelos_25_mil Interactive
+Open Table "26 V. Clara suelos 25 mil" As _26_V__Clara_suelos_25_mil Interactive
+Open Table "27 Cienf suelos 25 mil" As _27_Cienf_suelos_25_mil Interactive
+Open Table "28 S. Spíritus suelos 25 mil" As _28_S__Spíritus_suelos_25_mil Interactive
+Open Table "29 C. Ávila suelos 25 mil" As _29_C__Ávila_suelos_25_mil Interactive
+Open Table "30 Camagüey suelos 25 mil" As _30_Camagüey_suelos_25_mil Interactive
+Open Table "31 LT suelos 25 mil" As _31_LT_suelos_25_mil Interactive
+Open Table "32 Holguín suelos 25 mil" As _32_Holguín_suelos_25_mil Interactive
+Open Table "33 Granma suelos 25 mil" As _33_Granma_suelos_25_mil Interactive
+Open Table "34 Stgo de Cuba suelos 25 mil" As _34_Stgo_de_Cuba_suelos_25_mil Interactive
+Open Table "35 Gtmo suelos 25 mil" As _35_Gtmo_suelos_25_mil Interactive
+Open Table "2 Cuba_costa" As _2_Cuba_costa Interactive
+Open Table "3 Cuba_zona baja" As _3_Cuba_zona_baja Interactive
+Open Table "4 Cuerpos de agua" As _4_Cuerpos_de_agua Interactive
+Open Table "5 Límite prov actual" As _5_Límite_prov_actual Interactive
+Open Table "5 Límites de provincias 2" As _5_Límites_de_provincias_2 Interactive
+Open Table "6 Cuaba capitales de provincias" As _6_Cuaba_capitales_de_provincia Interactive
+Open Table "6 Nombres de capatales" As _6_Nombres_de_capatales Interactive
+Open Table "7 Autopista Nacional" As _7_Autopista_Nacional Interactive
+Open Table "7 Carretera Central" As _7_Carretera_Central Interactive
+Open Table "8 Coordenadas geográficas" As _8_Coordenadas_geográficas Interactive
+Open Table "8 Valores de coordenadas" As _8_Valores_de_coordenadas Interactive
+Open Table "9 Marco" As _9_Marco Interactive
+Open Table "10 Título" As _10_Título Interactive
+Open Table "11 Barra de escala" As _11_Barra_de_escala Interactive
+Open Table "12 Leyenda" As _12_Leyenda Interactive
+Open Table "14 Autoría" As _14_Autoría Interactive
+Open Table "15 Nombre ciudades" As _15_Nombre_ciudades Interactive
+Open Table "16 Guía de escala" As _16_Guía_de_escala Interactive
+Open Table "w14 Capa subpuesta" As w14_Capa_subpuesta Interactive
+Open Table "40 Isla suelos 25 mil" As _40_Isla_suelos_25_mil Interactive
+Select *  from _22_Artemisa_suelos_25_mil  where Cód_tipo = 2  into Query1 noselect  
+Select *  from _22_Artemisa_suelos_25_mil  where Cód_tipo = 3  into Query2 noselect  
+Select *  from _22_Artemisa_suelos_25_mil  where Cód_tipo = 4  into Query3 noselect  
+Select *  from _22_Artemisa_suelos_25_mil  where Cód_tipo = 5  into Query4 noselect  
+Select *  from _22_Artemisa_suelos_25_mil  where Cód_tipo = 6  into Query5 noselect  
+Select *  from _22_Artemisa_suelos_25_mil  where Cód_tipo = 7  into Query6 noselect  
+Select *  from _22_Artemisa_suelos_25_mil  where Cód_tipo = 8  into Query7 noselect  
+Select *  from _22_Artemisa_suelos_25_mil  where Cód_tipo = 9  into Query8 noselect  
+Select *  from _22_Artemisa_suelos_25_mil  where Cód_tipo = 9  into Query9 noselect  
+Select *  from _22_Artemisa_suelos_25_mil  where Cód_tipo = 10  into Query10 noselect  
+Select *  from _22_Artemisa_suelos_25_mil  where Cód_tipo = 12  into Query11 noselect  
+Select *  from _22_Artemisa_suelos_25_mil  where Cód_tipo = 13  into Query12 noselect  
+Select *  from _22_Artemisa_suelos_25_mil  where Cód_tipo = 15  into Query13 noselect  
+Select *  from _22_Artemisa_suelos_25_mil  where Cód_tipo = 16  into Query14 noselect  
+Select *  from _22_Artemisa_suelos_25_mil  where Cód_tipo = 17  into Query15 noselect  
+Select *  from _22_Artemisa_suelos_25_mil  where Cód_tipo = 17  into Query16 noselect  
+Select *  from _22_Artemisa_suelos_25_mil  where Cód_tipo = 19  into Query17 noselect  
+Select *  from _22_Artemisa_suelos_25_mil  where Cód_tipo = 20  into Query18 noselect  
+Select *  from _22_Artemisa_suelos_25_mil  where Cód_tipo = 25  into Query19 noselect  
+Select *  from _22_Artemisa_suelos_25_mil  where Cód_tipo = 26  into Query20 noselect  
+Select *  from _22_Artemisa_suelos_25_mil  where Cód_tipo = 27  into Query21 noselect  
+Select *  from _22_Artemisa_suelos_25_mil  where Cód_tipo = 28  into Query22 noselect  
+Map From _15_Nombre_ciudades,_14_Autoría,_10_Título,_8_Valores_de_coordenadas,_6_Nombres_de_capatales
+  ,_16_Guía_de_escala,_11_Barra_de_escala,_9_Marco,_7_Carretera_Central,_7_Autopista_Nacional,_5_Límites_de_provincias_2
+  ,_5_Límite_prov_actual,_40_Isla_suelos_25_mil,_12_Leyenda,_6_Cuaba_capitales_de_provincia,_4_Cuerpos_de_agua,_35_Gtmo_suelos_25_mil
+  ,_34_Stgo_de_Cuba_suelos_25_mil,_33_Granma_suelos_25_mil,_32_Holguín_suelos_25_mil,_31_LT_suelos_25_mil,_30_Camagüey_suelos_25_mil,_29_C__Ávila_suelos_25_mil
+  ,_28_S__Spíritus_suelos_25_mil,_27_Cienf_suelos_25_mil,_26_V__Clara_suelos_25_mil,_25_Matanzas_suelos_25_mil,_24_Myb_suelos_25_mil,_22_Artemisa_suelos_25_mil
+  ,_23_La_Habana_25_mil,_21_P__Río_suelos_25_mil,_2_Cuba_costa,_3_Cuba_zona_baja,w14_Capa_subpuesta,_8_Coordenadas_geográficas
+  Position (0.0520833,0.0520833) Units "in"
+  Width 7.03125 Units "in" Height 2.96875 Units "in" 
+Set Window FrontWindow() ScrollBars Off Autoscroll On Enhanced On Smooth Text Antialias Image High
+Set Map
+  CoordSys Earth Projection 3, 70, "m", -81, 22.35, 21.7, 23, 500000, 280296.016
+  Center (653580.7774,216011.3207)
+  Zoom 1175.882123 Units "km"
+  Preserve Zoom Display Zoom
+  Distance Units "km" Area Units "sq km" XY Units "m"
+Set Map
+  Layer 1
+    Display Off
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Arial",0,9,0)
+    Label Line Arrow Position Right Font ("Arial",0,9,0) Pen (1,2,0) 
+      With Description
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 2
+    Display Graphic
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Arial",0,9,0)
+    Label Line Arrow Position Right Font ("Arial",0,9,0) Pen (1,2,0) 
+      With Provincia
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 3
+    Display Graphic
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Arial",0,9,0)
+    Label Line Arrow Position Right Font ("Arial",0,9,0) Pen (1,2,0) 
+      With Description
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 4
+    Display Graphic
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Arial",0,9,0)
+    Label Line Arrow Position Right Font ("Arial",0,9,0) Pen (1,2,0) 
+      With Description
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 5
+    Display Graphic
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Arial",0,9,0)
+    Label Line Arrow Position Right Font ("Arial",0,9,0) Pen (1,2,0) 
+      With Nombre
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 6
+    Display Graphic
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Arial",0,9,0)
+    Label Line Arrow Position Above Font ("Arial",0,9,0) Pen (1,2,0) 
+      With Description
+      Parallel On Auto Off Overlap Off Duplicates Off Offset 2
+      Visibility On
+  Layer 7
+    Display Graphic
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Arial",0,9,0)
+    Label Line Arrow Position Above Font ("Arial",0,9,0) Pen (1,2,0) 
+      With Description
+      Parallel On Auto Off Overlap Off Duplicates Off Offset 2
+      Visibility On
+  Layer 8
+    Display Graphic
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Arial",0,9,0)
+    Label Line Arrow Position Above Font ("Arial",0,9,0) Pen (1,2,0) 
+      With Description
+      Parallel On Auto Off Overlap Off Duplicates Off Offset 2
+      Visibility On
+  Layer 9
+    Display Graphic
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Arial",0,9,0)
+    Label Line Arrow Position Above Font ("Arial",0,9,0) Pen (1,2,0) 
+      With Tipo
+      Parallel On Auto Off Overlap Off Duplicates Off Offset 2
+      Visibility On
+  Layer 10
+    Display Graphic
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Arial",0,9,0)
+    Label Line Arrow Position Above Font ("Arial",0,9,0) Pen (1,2,0) 
+      With Tipo
+      Parallel On Auto Off Overlap Off Duplicates Off Offset 2
+      Visibility On
+  Layer 11
+    Display Graphic
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Arial",0,9,0)
+    Label Line Arrow Position Above Font ("Arial",0,9,0) Pen (1,2,0) 
+      With Provincia
+      Parallel On Auto Off Overlap Off Duplicates Off Offset 2
+      Visibility On
+  Layer 12
+    Display Off
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Arial",0,9,0)
+    Label Line Arrow Position Above Font ("Arial",0,9,0) Pen (1,2,0) 
+      With Provincia
+      Parallel On Auto Off Overlap Off Duplicates Off Offset 2
+      Visibility On
+  Layer 13
+    Display Graphic
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Arial",0,9,0)
+    Label Line None Position Center Font ("Arial",0,9,0) Pen (1,2,0) 
+      With Nombre_subtipo
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 14
+    Display Graphic
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Arial",0,9,0)
+    Label Line None Position Center Font ("Arial",0,9,0) Pen (1,2,0) 
+      With Provincia
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 15
+    Display Graphic
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Arial",0,9,0)
+    Label Line None Position Center Font ("Arial",0,9,0) Pen (1,2,0) 
+      With Nombre
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 16
+    Display Graphic
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Arial",0,9,0)
+    Label Line None Position Center Font ("Arial",0,9,0) Pen (1,2,0) 
+      With Tipo
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 17
+    Display Graphic
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Arial",0,9,0)
+    Label Line None Position Center Font ("Arial",0,9,0) Pen (1,2,0) 
+      With Nombre_subtipo
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 18
+    Display Graphic
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Arial",0,9,0)
+    Label Line None Position Center Font ("Arial",0,9,0) Pen (1,2,0) 
+      With Nombre_subtipo
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 19
+    Display Graphic
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Arial",0,9,0)
+    Label Line None Position Center Font ("Arial",0,9,0) Pen (1,2,0) 
+      With Nombre_subtipo
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 20
+    Display Graphic
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Arial",0,9,0)
+    Label Line None Position Center Font ("Arial",0,9,0) Pen (1,2,0) 
+      With Nombre_subtipo
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 21
+    Display Graphic
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Arial",0,9,0)
+    Label Line None Position Center Font ("Arial",0,9,0) Pen (1,2,0) 
+      With Cód_stipo
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 22
+    Display Graphic
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Arial",0,9,0)
+    Label Line None Position Center Font ("Arial",0,9,0) Pen (1,2,0) 
+      With Nombre_subtipo
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 23
+    Display Graphic
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Arial",0,9,0)
+    Label Line None Position Center Font ("Arial",0,9,0) Pen (1,2,0) 
+      With Nombre_subtipo
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 24
+    Display Graphic
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Arial",0,9,0)
+    Label Line None Position Center Font ("Arial",0,9,0) Pen (1,2,0) 
+      With Nombre_subtipo
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 25
+    Display Graphic
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Arial",0,9,0)
+    Label Line None Position Center Font ("Arial",0,9,0) Pen (1,2,0) 
+      With Nombre_subtipo
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 26
+    Display Graphic
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Arial",0,9,0)
+    Label Line None Position Center Font ("Arial",0,9,0) Pen (1,2,0) 
+      With Nombre_subtipo
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 27
+    Display Graphic
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Arial",0,9,0)
+    Label Line None Position Center Font ("Arial",0,9,0) Pen (1,2,0) 
+      With Nombre_subtipo
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 28
+    Display Graphic
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Arial",0,9,0)
+    Label Line None Position Center Font ("Arial",0,9,0) Pen (1,2,0) 
+      With Nombre_subtipo
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 29
+    Display Graphic
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Arial",0,9,0)
+    Label Line None Position Center Font ("Arial",0,9,0) Pen (1,2,0) 
+      With Nombre_subtipo
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 30
+    Display Graphic
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Arial",0,9,0)
+    Label Line None Position Center Font ("Arial",0,9,0) Pen (1,2,0) 
+      With Nombre_subtipo
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 31
+    Display Graphic
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Arial",0,9,0)
+    Label Line None Position Center Font ("Arial",0,9,0) Pen (1,2,0) 
+      With Nombre_subtipo
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 32
+    Display Graphic
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Arial",0,9,0)
+    Label Line Arrow Position Above Font ("Arial",0,9,0) Pen (1,2,0) 
+      With Tipo
+      Parallel On Auto Off Overlap Off Duplicates Off Offset 2
+      Visibility On
+  Layer 33
+    Display Graphic
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Arial",0,9,0)
+    Label Line None Position Center Font ("Arial",0,9,0) Pen (1,2,0) 
+      With Tipo
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 34
+    Display Graphic
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Arial",0,9,0)
+    Label Line None Position Center Font ("Arial",0,9,0) Pen (1,2,0) 
+      With Nombre_prov
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 35
+    Display Graphic
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Arial",0,9,0)
+    Label Line Arrow Position Above Font ("Arial",0,9,0) Pen (1,2,0) 
+      With Description
+      Parallel On Auto Off Overlap Off Duplicates Off Offset 2
+      Visibility On
+Set Map Layer 29 Editable
+Set Window FrontWindow() Printer
+ Name "HP LaserJet Professional P1606dn (Copiar 2)" Orientation Portrait Copies 1
+ Papersize 9
+Dim WorkspaceMaximizedWindow As Integer
+WorkspaceMaximizedWindow = Frontwindow()
+Set Window WorkspaceMaximizedWindow Max
+Undim WorkspaceMaximizedWindow

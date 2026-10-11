@@ -1,0 +1,16 @@
+﻿Cód_tipo,Cód_stipo,soil_code,soil_type_name,soil_subtype_name,soil_name_es,soil_name_en
+0,0,0,,,,
+2,1,201,Ferralítico Rojo,Típico,Ferralítico Rojo Típico,Typical Red Ferrallitic Soil
+2,4,204,Ferralítico Rojo,Hidratado,Ferralítico Rojo Hidratado,Hydrated Red Ferrallitic Soil
+2,21,221,Ferralítico Rojo,Antrópico,Ferralítico Rojo Antrópico,Anthropic Red Ferrallitic Soil
+4,1,401,Ferralítico Amarillento,Típico,Ferralítico Amarillento Típico,Typical Yellowish Ferrallitic Soil
+4,2,402,Ferralítico Amarillento,Concrecionario,Ferralítico Amarillento Concrecionario,Concretionary Yellowish Ferrallitic Soil
+8,1,801,Fersialítico Pardo Rojizo,Típico,Fersialítico Pardo Rojizo Típico,Typical Reddish-Brown Fersialitic Soil
+10,1,1001,Pardo con Carbonatos,Típico,Pardo con Carbonatos Típico,Typical Brown Soil with Carbonates
+12,1,1201,Húmico Carbonático,Típico,Húmico Carbonático Típico,Typical Humic Carbonatic Soil
+13,1,1301,Rendzina Roja,Típico,Rendzina Roja Típico,Typical Red Rendzina
+15,10,1510,Oscuro Plástico Gleyzado,Negro Grisáceo,Oscuro Plástico Gleyzado Negro Grisáceo,Grayish-Black Gleyed Dark Plastic Soil
+17,12,1712,Oscuro Plástico no Gleyzado,Gris Amarillento,Oscuro Plástico no Gleyzado Gris Amarillento,Yellowish-Gray Non-Gleyed Dark Plastic Soil
+19,2,1902,Gley Ferralítico,Concrecionario,Gley Ferralítico Concrecionario,Concretionary Ferrallitic Gley Soil
+26,18,2618,Aluvial,Poco Diferenciado,Aluvial Poco Diferenciado,Weakly Differentiated Alluvial Soil
+28,19,2819,Esquelético,Diferenciado,Esquelético Diferenciado,Differentiated Skeletal Soil

@@ -1,35 +1,115 @@
-# Conda
+# ============================================================
+# Conda and Python environments
+# ============================================================
 .conda/
 *.conda
+.venv/
+venv/
 
+# ============================================================
 # Python
+# ============================================================
 __pycache__/
 *.py[cod]
 
+# ============================================================
 # Jupyter
+# ============================================================
 .ipynb_checkpoints/
 
-# GIS temporary files
+# Local utility notebook
+src/scripts/export_markdown_as_md.ipynb
+src/scripts/start_geosoil_jupyter.bat
+
+# trash notebooks
+notebooks/trash
+
+# ============================================================
+# Local configuration and secrets
+# ============================================================
+.env
+.env.*
+!.env.example
+
+# ============================================================
+# GIS temporary files and sidecars
+# ============================================================
 *.aux.xml
 *.ovr
 *.tfw
-*.cpg
 *.lock
+*.qmd
 
-# Local data
-data/raw/*
-data/processed/*
+# ============================================================
+# Exclude large raster formats globally
+# ============================================================
+*.tif
+*.tiff
+*.jp2
+
+# ============================================================
+# Large or restricted raw datasets
+# ============================================================
+
+
+# Large soil-map source files and archives
+data/raw/satellite
+data/raw/Mapa\ Suelo\ 25\ mil.rar
+data/raw/land_cover.rar
+
+# Sentinel-2 source imagery and incomplete downloads
+data/raw/satellite/sentinel2/
+*.jp2
+*.part
+*.tmp
+
+# ============================================================
+# Processed data
+# ============================================================
+
+# Exclude generated satellite rasters by default.
+# Keep selected CSVs and GeoPackages eligible for publication.
+data/processed/satellite/
+
+# ============================================================
+# External data
+# ============================================================
+
+# External datasets are excluded by default.
 data/external/*
 
-# Generated outputs
-outputs/maps/*
-outputs/rasters/*
-outputs/statistics/*
+# ============================================================
+# Documentation temporarily excluded
+# ============================================================
+docs/
 
-# OS
+# ============================================================
+# Generated outputs
+# ============================================================
+
+# Ignore generated maps, figures, tables, and statistics by default.
+# Selected final deliverables can be explicitly added later.
+outputs/maps/*
+outputs/figures/*
+outputs/tables/*
+outputs/statistics/*
+outputs/rasters/*
+
+# ============================================================
+# Operating systems
+# ============================================================
 .DS_Store
 Thumbs.db
 
-# IDE
+# ============================================================
+# IDEs
+# ============================================================
 .vscode/
 .idea/
+
+# ============================================================
+# Project-specific temporary files
+# ============================================================
+project_tree.txt
+generate_project_tree.sh
+start_geosoil_jupyter.sh

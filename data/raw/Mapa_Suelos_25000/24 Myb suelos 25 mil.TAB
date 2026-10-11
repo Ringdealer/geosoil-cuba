@@ -1,0 +1,133 @@
+!table
+!version 450
+!charset WindowsLatin1
+
+Definition Table
+  Type NATIVE Charset "WindowsLatin1"
+  Fields 22
+    ID Integer ;
+    Cód_tipo Integer Index 1 ;
+    Cód_stipo Integer ;
+    Nombre_subtipo Char (2) ;
+    Cód_MBasal Integer ;
+    Cód_sat Integer ;
+    Prof_pedol Integer ;
+    Humif Integer ;
+    Erosión Integer ;
+    Concrec Integer ;
+    Sal Integer ;
+    Gleyz Integer ;
+    Lavado Integer ;
+    Textura Integer ;
+    Gravas Integer ;
+    Piedras Integer ;
+    Rocas Integer ;
+    Prof_ef Integer Index 2 ;
+    Pend Integer ;
+    Altitud Integer ;
+    Cat_agrop Integer ;
+    Área_ha Decimal (15, 2) ;
+begin_metadata
+"\DefaultTheme" = ""
+"\DefaultTheme\Expression" = ""
+"\DefaultTheme\Expression\IsSimpleCol" = ""
+"\DefaultTheme\ThemeType" = ""
+"\DefaultTheme\Bins" = ""
+"\DefaultTheme\Bins\Count" = ""
+"\DefaultTheme\Bins\Bin" = ""
+"\DefaultTheme\Bins\Bin\1" = ""
+"\DefaultTheme\Bins\Bin\1\From" = ""
+"\DefaultTheme\Bins\Bin\1\BinBrush" = ""
+"\DefaultTheme\Bins\Bin\1\BinBorderPen" = ""
+"\DefaultTheme\Bins\Bin\2" = ""
+"\DefaultTheme\Bins\Bin\2\From" = ""
+"\DefaultTheme\Bins\Bin\2\BinBrush" = ""
+"\DefaultTheme\Bins\Bin\2\BinBorderPen" = ""
+"\DefaultTheme\Bins\Bin\3" = ""
+"\DefaultTheme\Bins\Bin\3\From" = ""
+"\DefaultTheme\Bins\Bin\3\BinBrush" = ""
+"\DefaultTheme\Bins\Bin\3\BinBorderPen" = ""
+"\DefaultTheme\Bins\Bin\4" = ""
+"\DefaultTheme\Bins\Bin\4\From" = ""
+"\DefaultTheme\Bins\Bin\4\BinBrush" = ""
+"\DefaultTheme\Bins\Bin\4\BinBorderPen" = ""
+"\DefaultTheme\Bins\Bin\5" = ""
+"\DefaultTheme\Bins\Bin\5\From" = ""
+"\DefaultTheme\Bins\Bin\5\BinBrush" = ""
+"\DefaultTheme\Bins\Bin\5\BinBorderPen" = ""
+"\DefaultTheme\Bins\Bin\6" = ""
+"\DefaultTheme\Bins\Bin\6\From" = ""
+"\DefaultTheme\Bins\Bin\6\BinBrush" = ""
+"\DefaultTheme\Bins\Bin\6\BinBorderPen" = ""
+"\DefaultTheme\Bins\Bin\7" = ""
+"\DefaultTheme\Bins\Bin\7\From" = ""
+"\DefaultTheme\Bins\Bin\7\BinBrush" = ""
+"\DefaultTheme\Bins\Bin\7\BinBorderPen" = ""
+"\DefaultTheme\Bins\Bin\8" = ""
+"\DefaultTheme\Bins\Bin\8\From" = ""
+"\DefaultTheme\Bins\Bin\8\BinBrush" = ""
+"\DefaultTheme\Bins\Bin\8\BinBorderPen" = ""
+"\DefaultTheme\Bins\Bin\9" = ""
+"\DefaultTheme\Bins\Bin\9\From" = ""
+"\DefaultTheme\Bins\Bin\9\BinBrush" = ""
+"\DefaultTheme\Bins\Bin\9\BinBorderPen" = ""
+"\DefaultTheme\Bins\Bin\10" = ""
+"\DefaultTheme\Bins\Bin\10\From" = ""
+"\DefaultTheme\Bins\Bin\10\BinBrush" = ""
+"\DefaultTheme\Bins\Bin\10\BinBorderPen" = ""
+"\DefaultTheme\Bins\Bin\11" = ""
+"\DefaultTheme\Bins\Bin\11\From" = ""
+"\DefaultTheme\Bins\Bin\11\BinBrush" = ""
+"\DefaultTheme\Bins\Bin\11\BinBorderPen" = ""
+"\DefaultTheme\Bins\Bin\12" = ""
+"\DefaultTheme\Bins\Bin\12\From" = ""
+"\DefaultTheme\Bins\Bin\12\BinBrush" = ""
+"\DefaultTheme\Bins\Bin\12\BinBorderPen" = ""
+"\DefaultTheme\Bins\Bin\13" = ""
+"\DefaultTheme\Bins\Bin\13\From" = ""
+"\DefaultTheme\Bins\Bin\13\BinBrush" = ""
+"\DefaultTheme\Bins\Bin\13\BinBorderPen" = ""
+"\DefaultTheme\Bins\Bin\14" = ""
+"\DefaultTheme\Bins\Bin\14\From" = ""
+"\DefaultTheme\Bins\Bin\14\BinBrush" = ""
+"\DefaultTheme\Bins\Bin\14\BinBorderPen" = ""
+"\DefaultTheme\Bins\Bin\15" = ""
+"\DefaultTheme\Bins\Bin\15\From" = ""
+"\DefaultTheme\Bins\Bin\15\BinBrush" = ""
+"\DefaultTheme\Bins\Bin\15\BinBorderPen" = ""
+"\DefaultTheme\Bins\Bin\16" = ""
+"\DefaultTheme\Bins\Bin\16\From" = ""
+"\DefaultTheme\Bins\Bin\16\BinBrush" = ""
+"\DefaultTheme\Bins\Bin\16\BinBorderPen" = ""
+"\DefaultTheme\Bins\Bin\17" = ""
+"\DefaultTheme\Bins\Bin\17\From" = ""
+"\DefaultTheme\Bins\Bin\17\BinBrush" = ""
+"\DefaultTheme\Bins\Bin\17\BinBorderPen" = ""
+"\DefaultTheme\Bins\Bin\18" = ""
+"\DefaultTheme\Bins\Bin\18\From" = ""
+"\DefaultTheme\Bins\Bin\18\BinBrush" = ""
+"\DefaultTheme\Bins\Bin\18\BinBorderPen" = ""
+"\DefaultTheme\Bins\Bin\19" = ""
+"\DefaultTheme\Bins\Bin\19\From" = ""
+"\DefaultTheme\Bins\Bin\19\BinBrush" = ""
+"\DefaultTheme\Bins\Bin\19\BinBorderPen" = ""
+"\DefaultTheme\Bins\Bin\20" = ""
+"\DefaultTheme\Bins\Bin\20\From" = ""
+"\DefaultTheme\Bins\Bin\20\BinBrush" = ""
+"\DefaultTheme\Bins\Bin\20\BinBorderPen" = ""
+"\DefaultTheme\Bins\Bin\21" = ""
+"\DefaultTheme\Bins\Bin\21\From" = ""
+"\DefaultTheme\Bins\Bin\21\BinBrush" = ""
+"\DefaultTheme\Bins\Bin\21\BinBorderPen" = ""
+"\DefaultTheme\Bins\Bin\22" = ""
+"\DefaultTheme\Bins\Bin\22\From" = ""
+"\DefaultTheme\Bins\Bin\22\BinBrush" = ""
+"\DefaultTheme\Bins\Bin\22\BinBorderPen" = ""
+"\DefaultTheme\Apply" = ""
+"\DefaultTheme\DefaultBrush" = ""
+"\DefaultTheme\DefaultBorderPen" = ""
+"\IsReadOnly" = "FALSE"
+"\MapInfo" = ""
+"\MapInfo\TableID" = "0cf1d6b4-c2fe-4d13-9c71-37828ae81371"
+"\MapInfo\ParentTableID" = "b80dc6c7-5f18-4694-89a9-3692f011b7f3"
+end_metadata

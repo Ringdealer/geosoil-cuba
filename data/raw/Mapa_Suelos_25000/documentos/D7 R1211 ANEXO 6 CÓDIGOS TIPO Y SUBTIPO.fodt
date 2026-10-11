@@ -1,0 +1,2044 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<office:document xmlns:css3t="http://www.w3.org/TR/css3-text/" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:rpt="http://openoffice.org/2005/report" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:officeooo="http://openoffice.org/2009/office" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" office:version="1.3" office:mimetype="application/vnd.oasis.opendocument.text">
+ <office:meta><meta:initial-creator>Alice</meta:initial-creator><dc:creator>Eileen Mejías Rodríguez</dc:creator><meta:editing-cycles>20</meta:editing-cycles><meta:creation-date>2017-04-02T15:48:00</meta:creation-date><dc:date>2017-11-02T14:22:00</dc:date><meta:editing-duration>PT2H55M</meta:editing-duration><meta:generator>LibreOffice/24.2.7.2$Linux_X86_64 LibreOffice_project/420$Build-2</meta:generator><meta:document-statistic meta:table-count="1" meta:image-count="0" meta:object-count="0" meta:page-count="2" meta:paragraph-count="232" meta:word-count="535" meta:character-count="2977" meta:non-whitespace-character-count="2673"/><meta:user-defined meta:name="AppVersion">15.0000</meta:user-defined><meta:user-defined meta:name="Company">Hewlett-Packard</meta:user-defined><meta:template xlink:type="simple" xlink:actuate="onRequest" xlink:title="Normal" xlink:href=""/></office:meta>
+ <office:settings>
+  <config:config-item-set config:name="ooo:view-settings">
+   <config:config-item config:name="ViewAreaTop" config:type="long">34</config:config-item>
+   <config:config-item config:name="ViewAreaLeft" config:type="long">0</config:config-item>
+   <config:config-item config:name="ViewAreaWidth" config:type="long">32962</config:config-item>
+   <config:config-item config:name="ViewAreaHeight" config:type="long">14838</config:config-item>
+   <config:config-item config:name="ShowRedlineChanges" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="InBrowseMode" config:type="boolean">false</config:config-item>
+   <config:config-item-map-indexed config:name="Views">
+    <config:config-item-map-entry>
+     <config:config-item config:name="ViewId" config:type="string">view2</config:config-item>
+     <config:config-item config:name="ViewLeft" config:type="long">7405</config:config-item>
+     <config:config-item config:name="ViewTop" config:type="long">5749</config:config-item>
+     <config:config-item config:name="VisibleLeft" config:type="long">0</config:config-item>
+     <config:config-item config:name="VisibleTop" config:type="long">34</config:config-item>
+     <config:config-item config:name="VisibleRight" config:type="long">32960</config:config-item>
+     <config:config-item config:name="VisibleBottom" config:type="long">14870</config:config-item>
+     <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
+     <config:config-item config:name="ViewLayoutColumns" config:type="short">1</config:config-item>
+     <config:config-item config:name="ViewLayoutBookMode" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="ZoomFactor" config:type="short">140</config:config-item>
+     <config:config-item config:name="IsSelectedFrame" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="KeepRatio" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="AnchoredTextOverflowLegacy" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="LegacySingleLineFontwork" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="ConnectorUseSnapRect" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="IgnoreBreakAfterMultilineField" config:type="boolean">false</config:config-item>
+    </config:config-item-map-entry>
+   </config:config-item-map-indexed>
+  </config:config-item-set>
+  <config:config-item-set config:name="ooo:configuration-settings">
+   <config:config-item config:name="PrintProspectRTL" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintPageBackground" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintDrawings" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintFaxName" config:type="string"/>
+   <config:config-item config:name="PrintReversed" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintAnnotationMode" config:type="short">0</config:config-item>
+   <config:config-item config:name="PrintHiddenText" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintEmptyPages" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintGraphics" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="NoNumberingShowFollowBy" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="HyphenateURLs" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ImagePreferredDPI" config:type="int">0</config:config-item>
+   <config:config-item config:name="FootnoteInColumnToPageEnd" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="GutterAtTop" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ContinuousEndnotes" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="FrameAutowidthWithMorePara" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="SubtractFlysAnchoredAtFlys" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="SurroundTextWrapSmall" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintControls" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="TreatSingleColumnBreakAsPageBreak" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="TabOverSpacing" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="AutoFirstLineIndentDisregardLineSpace" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="TabOverMargin" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="EmbedComplexScriptFonts" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="EmbedAsianScriptFonts" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintTextPlaceholder" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ApplyTextAttrToEmptyLineAtEndOfParagraph" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="EmbedSystemFonts" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="EmbedFonts" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="DisableOffPagePositioning" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="BackgroundParaOverDrawings" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="TabOverflow" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="AllowPrintJobCancel" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="AddVerticalFrameOffsets" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="ProtectBookmarks" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="AddFrameOffsets" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintBlackFonts" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="TableRowKeep" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="ApplyParagraphMarkFormatToNumbering" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrinterIndependentLayout" config:type="string">high-resolution</config:config-item>
+   <config:config-item config:name="JustifyLinesWithShrinking" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="RsidRoot" config:type="int">653550</config:config-item>
+   <config:config-item config:name="PrintProspect" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="CollapseEmptyCellPara" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintPaperFromSetup" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="CurrentDatabaseCommand" config:type="string"/>
+   <config:config-item config:name="CurrentDatabaseDataSource" config:type="string"/>
+   <config:config-item config:name="SaveThumbnail" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="EmbeddedDatabaseName" config:type="string"/>
+   <config:config-item config:name="UnbreakableNumberings" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="SaveGlobalDocumentLinks" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="MsWordCompTrailingBlanks" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintTables" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintLeftPages" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="AddParaTableSpacing" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrinterPaperFromSetup" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="CurrentDatabaseCommandType" config:type="int">0</config:config-item>
+   <config:config-item config:name="ChartAutoUpdate" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="OutlineLevelYieldsNumbering" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="UseOldNumbering" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="AddParaSpacingToTableCells" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="FieldAutoUpdate" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PropLineSpacingShrinksFirstLine" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="TabAtLeftIndentForParagraphsInList" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintRightPages" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="DoNotCaptureDrawObjsOnPage" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="LoadReadonly" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="HeaderSpacingBelowLastPara" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="SaveVersionOnClose" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ClippedPictures" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="MathBaselineAlignment" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="AlignTabStopPosition" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="UseFormerLineSpacing" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintSingleJobs" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="DoNotMirrorRtlDrawObjs" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrinterName" config:type="string">Generic Printer</config:config-item>
+   <config:config-item config:name="AddParaLineSpacingToTableCells" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="IsKernAsianPunctuation" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="DoNotJustifyLinesWithManualBreak" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="CharacterCompressionType" config:type="short">0</config:config-item>
+   <config:config-item config:name="IsLabelDocument" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="EmbedLatinScriptFonts" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrinterSetup" config:type="base64Binary">tAH+/0dlbmVyaWMgUHJpbnRlcgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAU0dFTlBSVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWAAMAoAAAAAAAAAAEAAhSAAAEdAAASm9iRGF0YSAxCnByaW50ZXI9R2VuZXJpYyBQcmludGVyCm9yaWVudGF0aW9uPVBvcnRyYWl0CmNvcGllcz0xCmNvbGxhdGU9ZmFsc2UKbWFyZ2luYWRqdXN0bWVudD0wLDAsJzAsMApjb2xvcmRlcHRoPTI0CmNvbG9yZGV2aWNlPTAKUFBEQ29udGV4dERhdGEKUGFnZVNpemU6QTQAABIAQ09NUEFUX0RVUExFWF9NT0RFDwBEdXBsZXhNb2RlOjpPZmYMAFBSSU5URVJfTkFNRQ8AR2VuZXJpYyBQcmludGVyCwBEUklWRVJfTkFNRQcAU0dFTlBSVA==</config:config-item>
+   <config:config-item config:name="UseVariableWidthNBSP" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="EmbedOnlyUsedFonts" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ApplyUserData" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="AddParaTableSpacingAtStart" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="InvertBorderSpacing" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="ProtectFields" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="AddExternalLeading" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="LinkUpdateMode" config:type="short">1</config:config-item>
+   <config:config-item config:name="UseFormerObjectPositioning" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="UnxForceZeroExtLeading" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="UseFormerTextWrapping" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ConsiderTextWrapOnObjPos" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="StylesNoDefault" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IgnoreFirstLineIndentInNumbering" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="NoGapAfterNoteNumber" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="EmptyDbFieldHidesPara" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="DoNotResetParaAttrsForNumFont" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IgnoreTabsAndBlanksForLineCalculation" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="ClipAsCharacterAnchoredWriterFlyFrames" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="DropCapPunctuation" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="UseOldPrinterMetrics" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="RedlineProtectionKey" config:type="base64Binary"/>
+   <config:config-item config:name="TabsRelativeToIndent" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="Rsid" config:type="int">653550</config:config-item>
+   <config:config-item config:name="UpdateFromTemplate" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="ProtectForm" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="MsWordCompMinLineHeightByFly" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="SmallCapsPercentage66" config:type="boolean">false</config:config-item>
+  </config:config-item-set>
+ </office:settings>
+ <office:scripts>
+  <office:script script:language="ooo:Basic">
+   <ooo:libraries xmlns:ooo="http://openoffice.org/2004/office" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </office:script>
+ </office:scripts>
+ <office:font-face-decls>
+  <style:font-face style:name="Arial" svg:font-family="Arial" style:font-family-generic="system" style:font-pitch="variable"/>
+  <style:font-face style:name="Calibri" svg:font-family="Calibri" style:font-family-generic="roman" style:font-pitch="variable"/>
+  <style:font-face style:name="F" svg:font-family="" style:font-family-generic="system" style:font-pitch="variable"/>
+  <style:font-face style:name="Franklin Gothic Book" svg:font-family="&apos;Franklin Gothic Book&apos;" style:font-family-generic="roman" style:font-pitch="variable"/>
+  <style:font-face style:name="Franklin Gothic Book1" svg:font-family="&apos;Franklin Gothic Book&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
+  <style:font-face style:name="Liberation Sans" svg:font-family="&apos;Liberation Sans&apos;" style:font-family-generic="swiss" style:font-pitch="variable"/>
+  <style:font-face style:name="Noto Sans CJK SC" svg:font-family="&apos;Noto Sans CJK SC&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
+  <style:font-face style:name="Noto Sans Devanagari" svg:font-family="&apos;Noto Sans Devanagari&apos;" style:font-family-generic="swiss"/>
+  <style:font-face style:name="Noto Sans Devanagari1" svg:font-family="&apos;Noto Sans Devanagari&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
+  <style:font-face style:name="Tahoma" svg:font-family="Tahoma" style:font-family-generic="roman" style:font-pitch="variable"/>
+  <style:font-face style:name="Tahoma1" svg:font-family="Tahoma" style:font-family-generic="system" style:font-pitch="variable"/>
+  <style:font-face style:name="Times New Roman" svg:font-family="&apos;Times New Roman&apos;" style:font-family-generic="roman" style:font-pitch="variable"/>
+  <style:font-face style:name="Times New Roman1" svg:font-family="&apos;Times New Roman&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
+ </office:font-face-decls>
+ <office:styles>
+  <style:default-style style:family="graphic">
+   <style:graphic-properties svg:stroke-color="#3465a4" draw:fill-color="#729fcf" fo:wrap-option="no-wrap" draw:shadow-offset-x="0.1181in" draw:shadow-offset-y="0.1181in" draw:start-line-spacing-horizontal="0.1114in" draw:start-line-spacing-vertical="0.1114in" draw:end-line-spacing-horizontal="0.1114in" draw:end-line-spacing-vertical="0.1114in" style:flow-with-text="false"/>
+   <style:paragraph-properties style:text-autospace="ideograph-alpha" style:line-break="strict" loext:tab-stop-distance="0in" style:writing-mode="lr-tb" style:font-independent-line-spacing="false">
+    <style:tab-stops/>
+   </style:paragraph-properties>
+   <style:text-properties style:use-window-font-color="true" loext:opacity="0%" style:font-name="Calibri" fo:font-size="11pt" fo:language="es" fo:country="ES" style:letter-kerning="false" style:font-name-asian="F" style:font-size-asian="11pt" style:language-asian="es" style:country-asian="ES" style:font-name-complex="F" style:font-size-complex="11pt" style:language-complex="ar" style:country-complex="SA"/>
+  </style:default-style>
+  <style:default-style style:family="paragraph">
+   <style:paragraph-properties fo:hyphenation-ladder-count="no-limit" style:text-autospace="ideograph-alpha" style:punctuation-wrap="hanging" style:line-break="strict" style:tab-stop-distance="0.4917in" style:writing-mode="page"/>
+   <style:text-properties style:use-window-font-color="true" loext:opacity="0%" style:font-name="Calibri" fo:font-size="11pt" fo:language="es" fo:country="ES" style:letter-kerning="false" style:font-name-asian="F" style:font-size-asian="11pt" style:language-asian="es" style:country-asian="ES" style:font-name-complex="F" style:font-size-complex="11pt" style:language-complex="ar" style:country-complex="SA" fo:hyphenate="false" fo:hyphenation-remain-char-count="2" fo:hyphenation-push-char-count="2" loext:hyphenation-no-caps="false" loext:hyphenation-no-last-word="false" loext:hyphenation-word-char-count="5" loext:hyphenation-zone="no-limit"/>
+  </style:default-style>
+  <style:default-style style:family="table">
+   <style:table-properties table:border-model="collapsing"/>
+  </style:default-style>
+  <style:default-style style:family="table-row">
+   <style:table-row-properties fo:keep-together="auto"/>
+  </style:default-style>
+  <style:style style:name="Standard" style:family="paragraph" style:class="text">
+   <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.139in" style:contextual-spacing="false" fo:line-height="115%" fo:text-align="start" style:justify-single-word="false" fo:orphans="2" fo:widows="2" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Heading" style:family="paragraph" style:parent-style-name="Standard" style:next-style-name="Text_20_body" style:class="text">
+   <style:paragraph-properties fo:margin-top="0.1665in" fo:margin-bottom="0.0835in" style:contextual-spacing="false" fo:keep-with-next="always"/>
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="&apos;Liberation Sans&apos;" style:font-family-generic="swiss" style:font-pitch="variable" fo:font-size="14pt" style:font-name-asian="Noto Sans CJK SC" style:font-family-asian="&apos;Noto Sans CJK SC&apos;" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="14pt" style:font-name-complex="Noto Sans Devanagari1" style:font-family-complex="&apos;Noto Sans Devanagari&apos;" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="14pt"/>
+  </style:style>
+  <style:style style:name="Text_20_body" style:display-name="Text body" style:family="paragraph" style:parent-style-name="Standard" style:class="text">
+   <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.0972in" style:contextual-spacing="false" fo:line-height="115%"/>
+  </style:style>
+  <style:style style:name="List" style:family="paragraph" style:parent-style-name="Text_20_body" style:class="list">
+   <style:text-properties style:font-size-asian="12pt" style:font-name-complex="Noto Sans Devanagari" style:font-family-complex="&apos;Noto Sans Devanagari&apos;" style:font-family-generic-complex="swiss"/>
+  </style:style>
+  <style:style style:name="Caption" style:family="paragraph" style:parent-style-name="Standard" style:class="extra">
+   <style:paragraph-properties fo:margin-top="0.0835in" fo:margin-bottom="0.0835in" style:contextual-spacing="false" text:number-lines="false" text:line-number="0"/>
+   <style:text-properties fo:font-size="12pt" fo:font-style="italic" style:font-size-asian="12pt" style:font-style-asian="italic" style:font-name-complex="Noto Sans Devanagari" style:font-family-complex="&apos;Noto Sans Devanagari&apos;" style:font-family-generic-complex="swiss" style:font-size-complex="12pt" style:font-style-complex="italic"/>
+  </style:style>
+  <style:style style:name="Index" style:family="paragraph" style:parent-style-name="Standard" style:class="index">
+   <style:paragraph-properties text:number-lines="false" text:line-number="0"/>
+   <style:text-properties style:font-size-asian="12pt" style:font-name-complex="Noto Sans Devanagari" style:font-family-complex="&apos;Noto Sans Devanagari&apos;" style:font-family-generic-complex="swiss"/>
+  </style:style>
+  <style:style style:name="Balloon_20_Text" style:display-name="Balloon Text" style:family="paragraph" style:parent-style-name="Standard" loext:linked-style-name="Texto_20_de_20_globo_20_Car">
+   <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0in" style:contextual-spacing="false" fo:line-height="100%"/>
+   <style:text-properties style:font-name="Tahoma" fo:font-family="Tahoma" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="8pt" style:font-size-asian="8pt" style:font-name-complex="Tahoma1" style:font-family-complex="Tahoma" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="8pt"/>
+  </style:style>
+  <style:style style:name="Header_20_and_20_Footer" style:display-name="Header and Footer" style:family="paragraph" style:parent-style-name="Standard" style:class="extra"/>
+  <style:style style:name="Header" style:family="paragraph" style:parent-style-name="Standard" loext:linked-style-name="Encabezado_20_Car" style:class="extra">
+   <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0in" style:contextual-spacing="false" fo:line-height="100%">
+    <style:tab-stops>
+     <style:tab-stop style:position="3.0689in" style:type="center"/>
+     <style:tab-stop style:position="6.1374in" style:type="right"/>
+    </style:tab-stops>
+   </style:paragraph-properties>
+  </style:style>
+  <style:style style:name="Footer" style:family="paragraph" style:parent-style-name="Standard" loext:linked-style-name="Pie_20_de_20_página_20_Car" style:class="extra">
+   <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0in" style:contextual-spacing="false" fo:line-height="100%">
+    <style:tab-stops>
+     <style:tab-stop style:position="3.0689in" style:type="center"/>
+     <style:tab-stop style:position="6.1374in" style:type="right"/>
+    </style:tab-stops>
+   </style:paragraph-properties>
+  </style:style>
+  <style:style style:name="List_20_Paragraph" style:display-name="List Paragraph" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:margin-left="0.5in" fo:margin-top="0in" fo:margin-bottom="0.139in" style:contextual-spacing="true"/>
+  </style:style>
+  <style:style style:name="Default" style:family="paragraph">
+   <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0in" style:contextual-spacing="false" fo:line-height="100%" fo:text-align="start" style:justify-single-word="false" fo:orphans="2" fo:widows="2" style:writing-mode="lr-tb"/>
+   <style:text-properties fo:color="#000000" loext:opacity="100%" style:font-name="Franklin Gothic Book" fo:font-family="&apos;Franklin Gothic Book&apos;" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="12pt" fo:language="es" fo:country="MX" style:font-size-asian="12pt" style:font-name-complex="Franklin Gothic Book1" style:font-family-complex="&apos;Franklin Gothic Book&apos;" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="12pt"/>
+  </style:style>
+  <style:style style:name="Normal_20__28_Web_29_" style:display-name="Normal (Web)" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:margin-top="0.1945in" fo:margin-bottom="0.1945in" style:contextual-spacing="false" fo:line-height="100%"/>
+   <style:text-properties style:font-name="Times New Roman" fo:font-family="&apos;Times New Roman&apos;" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="12pt" fo:language="es" fo:country="MX" style:font-name-asian="Times New Roman1" style:font-family-asian="&apos;Times New Roman&apos;" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="12pt" style:language-asian="es" style:country-asian="MX" style:font-name-complex="Times New Roman1" style:font-family-complex="&apos;Times New Roman&apos;" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="12pt"/>
+  </style:style>
+  <style:style style:name="Default_20_Paragraph_20_Font" style:display-name="Default Paragraph Font" style:family="text"/>
+  <style:style style:name="Texto_20_de_20_globo_20_Car" style:display-name="Texto de globo Car" style:family="text" style:parent-style-name="Default_20_Paragraph_20_Font" loext:linked-style-name="Balloon_20_Text">
+   <style:text-properties style:font-name="Tahoma" fo:font-family="Tahoma" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="8pt" fo:language="es" fo:country="ES" style:font-size-asian="8pt" style:font-name-complex="Tahoma1" style:font-family-complex="Tahoma" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="8pt"/>
+  </style:style>
+  <style:style style:name="Encabezado_20_Car" style:display-name="Encabezado Car" style:family="text" style:parent-style-name="Default_20_Paragraph_20_Font" loext:linked-style-name="Header">
+   <style:text-properties fo:language="es" fo:country="ES"/>
+  </style:style>
+  <style:style style:name="Pie_20_de_20_página_20_Car" style:display-name="Pie de página Car" style:family="text" style:parent-style-name="Default_20_Paragraph_20_Font" loext:linked-style-name="Footer">
+   <style:text-properties fo:language="es" fo:country="ES"/>
+  </style:style>
+  <style:style style:name="Internet_20_link" style:display-name="Internet link" style:family="text" style:parent-style-name="Default_20_Paragraph_20_Font">
+   <style:text-properties fo:color="#0000ff" loext:opacity="100%" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color">
+    <loext:char-complex-color loext:theme-type="hyperlink" loext:color-type="theme"/>
+   </style:text-properties>
+  </style:style>
+  <style:style style:name="ListLabel_20_1" style:display-name="ListLabel 1" style:family="text"/>
+  <style:style style:name="ListLabel_20_2" style:display-name="ListLabel 2" style:family="text"/>
+  <style:style style:name="ListLabel_20_3" style:display-name="ListLabel 3" style:family="text"/>
+  <style:style style:name="ListLabel_20_4" style:display-name="ListLabel 4" style:family="text"/>
+  <style:style style:name="ListLabel_20_5" style:display-name="ListLabel 5" style:family="text"/>
+  <style:style style:name="ListLabel_20_6" style:display-name="ListLabel 6" style:family="text"/>
+  <style:style style:name="ListLabel_20_7" style:display-name="ListLabel 7" style:family="text"/>
+  <style:style style:name="ListLabel_20_8" style:display-name="ListLabel 8" style:family="text"/>
+  <style:style style:name="ListLabel_20_9" style:display-name="ListLabel 9" style:family="text"/>
+  <style:style style:name="ListLabel_20_10" style:display-name="ListLabel 10" style:family="text"/>
+  <style:style style:name="ListLabel_20_11" style:display-name="ListLabel 11" style:family="text"/>
+  <style:style style:name="ListLabel_20_12" style:display-name="ListLabel 12" style:family="text"/>
+  <style:style style:name="ListLabel_20_13" style:display-name="ListLabel 13" style:family="text"/>
+  <style:style style:name="ListLabel_20_14" style:display-name="ListLabel 14" style:family="text"/>
+  <style:style style:name="ListLabel_20_15" style:display-name="ListLabel 15" style:family="text"/>
+  <style:style style:name="ListLabel_20_16" style:display-name="ListLabel 16" style:family="text"/>
+  <style:style style:name="ListLabel_20_17" style:display-name="ListLabel 17" style:family="text"/>
+  <style:style style:name="ListLabel_20_18" style:display-name="ListLabel 18" style:family="text"/>
+  <text:outline-style style:name="Outline">
+   <text:outline-level-style text:level="1" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="2" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="3" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="4" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="5" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="6" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="7" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="8" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="9" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="10" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+  </text:outline-style>
+  <text:list-style style:name="No_20_List" style:display-name="No List">
+   <text:list-level-style-number text:level="1" loext:num-list-format="%1%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="0.5in" fo:text-indent="-0.25in" fo:margin-left="0.5in"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="2" loext:num-list-format="%2%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="0.75in" fo:text-indent="-0.25in" fo:margin-left="0.75in"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="3" loext:num-list-format="%3%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1in" fo:text-indent="-0.25in" fo:margin-left="1in"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="4" loext:num-list-format="%4%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.25in" fo:text-indent="-0.25in" fo:margin-left="1.25in"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="5" loext:num-list-format="%5%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.5in" fo:text-indent="-0.25in" fo:margin-left="1.5in"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="6" loext:num-list-format="%6%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.75in" fo:text-indent="-0.25in" fo:margin-left="1.75in"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="7" loext:num-list-format="%7%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2in" fo:text-indent="-0.25in" fo:margin-left="2in"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="8" loext:num-list-format="%8%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2.25in" fo:text-indent="-0.25in" fo:margin-left="2.25in"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="9" loext:num-list-format="%9%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2.5in" fo:text-indent="-0.25in" fo:margin-left="2.5in"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="10" loext:num-list-format="%10%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2.75in" fo:text-indent="-0.25in" fo:margin-left="2.75in"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+  </text:list-style>
+  <text:list-style style:name="WWNum1">
+   <text:list-level-style-number text:level="1" text:style-name="ListLabel_20_1" loext:num-list-format="%1%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" fo:text-indent="-0.25in" fo:margin-left="0.5in"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="2" text:style-name="ListLabel_20_2" loext:num-list-format="%2%." style:num-suffix="." style:num-format="a" style:num-letter-sync="true">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" fo:text-indent="-0.25in" fo:margin-left="1in"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="3" text:style-name="ListLabel_20_3" loext:num-list-format="%3%." style:num-suffix="." style:num-format="i">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment" fo:text-align="end">
+     <style:list-level-label-alignment text:label-followed-by="listtab" fo:text-indent="-0.1252in" fo:margin-left="1.5in"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="4" text:style-name="ListLabel_20_4" loext:num-list-format="%4%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" fo:text-indent="-0.25in" fo:margin-left="2in"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="5" text:style-name="ListLabel_20_5" loext:num-list-format="%5%." style:num-suffix="." style:num-format="a" style:num-letter-sync="true">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" fo:text-indent="-0.25in" fo:margin-left="2.5in"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="6" text:style-name="ListLabel_20_6" loext:num-list-format="%6%." style:num-suffix="." style:num-format="i">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment" fo:text-align="end">
+     <style:list-level-label-alignment text:label-followed-by="listtab" fo:text-indent="-0.1252in" fo:margin-left="3in"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="7" text:style-name="ListLabel_20_7" loext:num-list-format="%7%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" fo:text-indent="-0.25in" fo:margin-left="3.5in"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="8" text:style-name="ListLabel_20_8" loext:num-list-format="%8%." style:num-suffix="." style:num-format="a" style:num-letter-sync="true">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" fo:text-indent="-0.25in" fo:margin-left="4in"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="9" text:style-name="ListLabel_20_9" loext:num-list-format="%9%." style:num-suffix="." style:num-format="i">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment" fo:text-align="end">
+     <style:list-level-label-alignment text:label-followed-by="listtab" fo:text-indent="-0.1252in" fo:margin-left="4.5in"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="10" loext:num-list-format="%10%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2.75in" fo:text-indent="-0.25in" fo:margin-left="2.75in"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+  </text:list-style>
+  <text:list-style style:name="WWNum2">
+   <text:list-level-style-number text:level="1" text:style-name="ListLabel_20_10" loext:num-list-format="%1%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" fo:text-indent="-0.25in" fo:margin-left="0.25in"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="2" text:style-name="ListLabel_20_11" loext:num-list-format="%2%." style:num-suffix="." style:num-format="a" style:num-letter-sync="true">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" fo:text-indent="-0.25in" fo:margin-left="0.75in"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="3" text:style-name="ListLabel_20_12" loext:num-list-format="%3%." style:num-suffix="." style:num-format="i">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment" fo:text-align="end">
+     <style:list-level-label-alignment text:label-followed-by="listtab" fo:text-indent="-0.1252in" fo:margin-left="1.25in"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="4" text:style-name="ListLabel_20_13" loext:num-list-format="%4%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" fo:text-indent="-0.25in" fo:margin-left="1.75in"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="5" text:style-name="ListLabel_20_14" loext:num-list-format="%5%." style:num-suffix="." style:num-format="a" style:num-letter-sync="true">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" fo:text-indent="-0.25in" fo:margin-left="2.25in"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="6" text:style-name="ListLabel_20_15" loext:num-list-format="%6%." style:num-suffix="." style:num-format="i">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment" fo:text-align="end">
+     <style:list-level-label-alignment text:label-followed-by="listtab" fo:text-indent="-0.1252in" fo:margin-left="2.75in"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="7" text:style-name="ListLabel_20_16" loext:num-list-format="%7%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" fo:text-indent="-0.25in" fo:margin-left="3.25in"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="8" text:style-name="ListLabel_20_17" loext:num-list-format="%8%." style:num-suffix="." style:num-format="a" style:num-letter-sync="true">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" fo:text-indent="-0.25in" fo:margin-left="3.75in"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="9" text:style-name="ListLabel_20_18" loext:num-list-format="%9%." style:num-suffix="." style:num-format="i">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment" fo:text-align="end">
+     <style:list-level-label-alignment text:label-followed-by="listtab" fo:text-indent="-0.1252in" fo:margin-left="4.25in"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="10" loext:num-list-format="%10%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2.75in" fo:text-indent="-0.25in" fo:margin-left="2.75in"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+  </text:list-style>
+  <text:notes-configuration text:note-class="footnote" style:num-format="1" text:start-value="0" text:footnotes-position="page" text:start-numbering-at="document"/>
+  <text:notes-configuration text:note-class="endnote" style:num-format="i" text:start-value="0"/>
+  <text:linenumbering-configuration text:number-lines="false" text:offset="0.1965in" style:num-format="1" text:number-position="left" text:increment="5"/>
+  <style:default-page-layout>
+   <style:page-layout-properties style:layout-grid-standard-mode="true"/>
+  </style:default-page-layout>
+  <loext:theme loext:name="Tema de Office">
+   <loext:theme-colors loext:name="Office">
+    <loext:color loext:name="dark1" loext:color="#000000"/>
+    <loext:color loext:name="light1" loext:color="#ffffff"/>
+    <loext:color loext:name="dark2" loext:color="#1f497d"/>
+    <loext:color loext:name="light2" loext:color="#eeece1"/>
+    <loext:color loext:name="accent1" loext:color="#4f81bd"/>
+    <loext:color loext:name="accent2" loext:color="#c0504d"/>
+    <loext:color loext:name="accent3" loext:color="#9bbb59"/>
+    <loext:color loext:name="accent4" loext:color="#8064a2"/>
+    <loext:color loext:name="accent5" loext:color="#4bacc6"/>
+    <loext:color loext:name="accent6" loext:color="#f79646"/>
+    <loext:color loext:name="hyperlink" loext:color="#0000ff"/>
+    <loext:color loext:name="followed-hyperlink" loext:color="#800080"/>
+   </loext:theme-colors>
+  </loext:theme>
+ </office:styles>
+ <office:automatic-styles>
+  <style:style style:name="Table1" style:family="table">
+   <style:table-properties style:width="10.15in" fo:margin-left="-0.075in" fo:margin-top="0in" fo:margin-bottom="0in" table:align="left" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.A" style:family="table-column">
+   <style:table-column-properties style:column-width="2.3389in"/>
+  </style:style>
+  <style:style style:name="Table1.B" style:family="table-column">
+   <style:table-column-properties style:column-width="0.6896in"/>
+  </style:style>
+  <style:style style:name="Table1.C" style:family="table-column">
+   <style:table-column-properties style:column-width="0.5896in"/>
+  </style:style>
+  <style:style style:name="Table1.D" style:family="table-column">
+   <style:table-column-properties style:column-width="1.084in"/>
+  </style:style>
+  <style:style style:name="Table1.E" style:family="table-column">
+   <style:table-column-properties style:column-width="0.6882in"/>
+  </style:style>
+  <style:style style:name="Table1.F" style:family="table-column">
+   <style:table-column-properties style:column-width="0.591in"/>
+  </style:style>
+  <style:style style:name="Table1.G" style:family="table-column">
+   <style:table-column-properties style:column-width="3.2479in"/>
+  </style:style>
+  <style:style style:name="Table1.H" style:family="table-column">
+   <style:table-column-properties style:column-width="0.9194in"/>
+  </style:style>
+  <style:style style:name="Table1.1" style:family="table-row">
+   <style:table-row-properties fo:keep-together="auto"/>
+  </style:style>
+  <style:style style:name="Table1.A1" style:family="table-cell">
+   <style:table-cell-properties fo:background-color="#f2f2f2" fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb">
+    <style:background-image/>
+   </style:table-cell-properties>
+  </style:style>
+  <style:style style:name="Table1.A3" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.B3" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.C3" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.D3" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.E3" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.F3" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.G3" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.H3" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.A4" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.B4" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.C4" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.D4" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.E4" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.F4" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.G4" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.H4" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.A5" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.B5" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.C5" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.D5" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.E5" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.F5" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.G5" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.H5" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.A6" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.B6" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.C6" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.D6" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.E6" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.F6" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.G6" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.H6" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.A7" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.B7" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.C7" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.D7" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.E7" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.F7" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.G7" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.H7" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.A8" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.B8" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.C8" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.D8" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.E8" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.F8" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.G8" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.H8" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.A9" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.B9" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.C9" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.D9" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.E9" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.F9" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.G9" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.H9" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.A10" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.B10" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.C10" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.D10" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.E10" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.F10" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.G10" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.H10" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.A11" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.B11" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.C11" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.D11" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.E11" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.F11" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.G11" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.H11" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.A12" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.B12" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.C12" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.D12" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.E12" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.F12" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.G12" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.H12" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.A13" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.B13" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.C13" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.D13" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.E13" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.F13" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.G13" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.H13" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.A14" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.B14" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.C14" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.D14" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.E14" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.F14" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.G14" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.H14" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.A15" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.B15" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.C15" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.D15" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.E15" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.F15" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.G15" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.H15" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.A16" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.B16" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.C16" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.D16" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.E16" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.F16" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.G16" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.H16" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.A17" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.B17" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.C17" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.D17" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.E17" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.F17" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.G17" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.H17" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.A18" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.B18" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.C18" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.D18" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.E18" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.F18" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.G18" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.H18" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.A19" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.B19" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.C19" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.D19" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.E19" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.F19" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.G19" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.H19" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.A20" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.B20" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.C20" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.D20" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.E20" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.F20" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.G20" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.H20" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.A21" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.B21" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.C21" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.D21" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.E21" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.F21" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.G21" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.H21" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.A22" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.B22" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.C22" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.D22" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.E22" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.F22" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.G22" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.H22" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.A23" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.B23" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.C23" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.D23" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.E23" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.F23" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.G23" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.H23" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.A24" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.B24" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.C24" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.D24" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.E24" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.F24" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.G24" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.H24" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.A25" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.B25" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.C25" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.D25" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.E25" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.F25" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.G25" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.H25" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.A26" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.B26" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.C26" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.D26" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.E26" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.F26" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.G26" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.H26" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.A27" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.B27" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.C27" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.D27" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.E27" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.F27" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.G27" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.H27" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.A28" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.B28" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.C28" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.D28" style:family="table-cell">
+   <style:table-cell-properties fo:background-color="#bfbfbf" fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb">
+    <style:background-image/>
+   </style:table-cell-properties>
+  </style:style>
+  <style:style style:name="Table1.G28" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.H28" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.A29" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.B29" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.C29" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.G29" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.H29" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.A30" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.B30" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.C30" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.G30" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.H30" style:family="table-cell">
+   <style:table-cell-properties fo:padding-left="0.075in" fo:padding-right="0.075in" fo:padding-top="0in" fo:padding-bottom="0in" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="P1" style:family="paragraph" style:parent-style-name="Footer">
+   <style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
+  </style:style>
+  <style:style style:name="P2" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0in" style:contextual-spacing="false" fo:line-height="100%" fo:text-align="center" style:justify-single-word="false" fo:orphans="2" fo:widows="2"/>
+   <style:text-properties style:font-name="Calibri" fo:font-size="11pt" fo:language="es" fo:country="ES" style:letter-kerning="false" style:font-name-asian="F" style:font-size-asian="11pt" style:language-asian="es" style:country-asian="ES" style:font-name-complex="F" style:font-size-complex="11pt" style:language-complex="ar" style:country-complex="SA"/>
+  </style:style>
+  <style:style style:name="P3" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0in" style:contextual-spacing="false" fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false" fo:orphans="2" fo:widows="2"/>
+   <style:text-properties style:font-name="Calibri" fo:font-size="11pt" fo:language="es" fo:country="ES" style:letter-kerning="false" style:font-name-asian="F" style:font-size-asian="11pt" style:language-asian="es" style:country-asian="ES" style:font-name-complex="F" style:font-size-complex="11pt" style:language-complex="ar" style:country-complex="SA"/>
+  </style:style>
+  <style:style style:name="P4" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0in" style:contextual-spacing="false" fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false" fo:orphans="2" fo:widows="2"/>
+   <style:text-properties style:font-name="Calibri" fo:font-size="9pt" fo:language="es" fo:country="MX" style:letter-kerning="false" style:font-name-asian="F" style:font-size-asian="9pt" style:language-asian="es" style:country-asian="ES" style:font-name-complex="F" style:font-size-complex="9pt" style:language-complex="ar" style:country-complex="SA"/>
+  </style:style>
+  <style:style style:name="P5" style:family="paragraph" style:parent-style-name="Footer">
+   <style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
+  </style:style>
+  <style:style style:name="P6" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0in" style:contextual-spacing="false" fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
+  </style:style>
+  <style:style style:name="P7" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0in" style:contextual-spacing="false" fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
+   <style:text-properties fo:font-size="9pt" fo:language="es" fo:country="MX" style:font-size-asian="9pt" style:font-size-complex="9pt"/>
+  </style:style>
+  <style:style style:name="P8" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0in" style:contextual-spacing="false" fo:line-height="100%" fo:text-align="center" style:justify-single-word="false" fo:orphans="2" fo:widows="2"/>
+   <style:text-properties style:font-name="Calibri" fo:font-size="11pt" fo:language="es" fo:country="ES" style:letter-kerning="false" style:font-name-asian="F" style:font-size-asian="11pt" style:language-asian="es" style:country-asian="ES" style:font-name-complex="F" style:font-size-complex="11pt" style:language-complex="ar" style:country-complex="SA"/>
+  </style:style>
+  <style:style style:name="P9" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0in" style:contextual-spacing="false" fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false" fo:orphans="2" fo:widows="2"/>
+   <style:text-properties style:font-name="Calibri" fo:font-size="11pt" fo:language="es" fo:country="ES" style:letter-kerning="false" style:font-name-asian="F" style:font-size-asian="11pt" style:language-asian="es" style:country-asian="ES" style:font-name-complex="F" style:font-size-complex="11pt" style:language-complex="ar" style:country-complex="SA"/>
+  </style:style>
+  <style:style style:name="P10" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0in" style:contextual-spacing="false" fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false" fo:orphans="2" fo:widows="2"/>
+   <style:text-properties style:font-name="Calibri" fo:font-size="9pt" fo:language="es" fo:country="MX" style:letter-kerning="false" style:font-name-asian="F" style:font-size-asian="9pt" style:language-asian="es" style:country-asian="ES" style:font-name-complex="F" style:font-size-complex="9pt" style:language-complex="ar" style:country-complex="SA"/>
+  </style:style>
+  <style:style style:name="T1" style:family="text">
+   <style:text-properties fo:font-size="9pt" fo:language="es" fo:country="MX" fo:font-weight="bold" style:font-size-asian="9pt" style:font-weight-asian="bold" style:font-size-complex="9pt"/>
+  </style:style>
+  <style:style style:name="T2" style:family="text">
+   <style:text-properties fo:font-size="9pt" fo:language="es" fo:country="MX" style:font-size-asian="9pt" style:font-size-complex="9pt"/>
+  </style:style>
+  <style:style style:name="T3" style:family="text">
+   <style:text-properties fo:font-size="9pt" style:font-size-asian="9pt" style:font-name-complex="Arial" style:font-size-complex="9pt"/>
+  </style:style>
+  <style:style style:name="T4" style:family="text">
+   <style:text-properties fo:color="#ff0000" loext:opacity="100%" fo:font-size="9pt" style:font-size-asian="9pt" style:font-name-complex="Arial" style:font-size-complex="9pt"/>
+  </style:style>
+  <style:style style:name="T5" style:family="text">
+   <style:text-properties fo:color="#ff0000" loext:opacity="100%" fo:font-size="9pt" fo:language="es" fo:country="MX" style:font-size-asian="9pt" style:font-size-complex="9pt"/>
+  </style:style>
+  <style:page-layout style:name="pm1">
+   <style:page-layout-properties fo:page-width="11in" fo:page-height="8.5in" style:num-format="1" style:print-orientation="landscape" fo:margin-top="0.5in" fo:margin-bottom="0.5in" fo:margin-left="0.5in" fo:margin-right="0.5in" style:writing-mode="lr-tb" style:layout-grid-color="#c0c0c0" style:layout-grid-lines="30" style:layout-grid-base-height="0.25in" style:layout-grid-ruby-height="0in" style:layout-grid-mode="none" style:layout-grid-ruby-below="false" style:layout-grid-print="false" style:layout-grid-display="false" style:layout-grid-base-width="0.1665in" style:layout-grid-snap-to="true" style:footnote-max-height="0in" loext:margin-gutter="0in">
+    <style:footnote-sep style:width="0.0071in" style:distance-before-sep="0.0398in" style:distance-after-sep="0.0398in" style:line-style="solid" style:adjustment="left" style:rel-width="25%" style:color="#000000"/>
+   </style:page-layout-properties>
+   <style:header-style/>
+   <style:footer-style>
+    <style:header-footer-properties fo:min-height="0.0398in" fo:margin-left="0in" fo:margin-right="0in" fo:margin-top="0in" style:dynamic-spacing="true"/>
+   </style:footer-style>
+  </style:page-layout>
+  <style:style style:name="dp1" style:family="drawing-page">
+   <style:drawing-page-properties draw:background-size="full"/>
+  </style:style>
+ </office:automatic-styles>
+ <office:master-styles>
+  <style:master-page style:name="Standard" style:page-layout-name="pm1" draw:style-name="dp1">
+   <style:footer>
+    <text:p text:style-name="P1"><text:page-number text:select-page="current">1</text:page-number></text:p>
+    <text:p text:style-name="Footer"/>
+   </style:footer>
+  </style:master-page>
+ </office:master-styles>
+ <office:body>
+  <office:text text:use-soft-page-breaks="true">
+   <text:sequence-decls>
+    <text:sequence-decl text:display-outline-level="0" text:name="Illustration"/>
+    <text:sequence-decl text:display-outline-level="0" text:name="Table"/>
+    <text:sequence-decl text:display-outline-level="0" text:name="Text"/>
+    <text:sequence-decl text:display-outline-level="0" text:name="Drawing"/>
+    <text:sequence-decl text:display-outline-level="0" text:name="Figure"/>
+   </text:sequence-decls>
+   <text:p text:style-name="P6" loext:marker-style-name="T1"><text:span text:style-name="T1">ANEXO 6: CODIFICACIÓN DE TIPOS, SUBTIPOS Y MATERIAL BASAL (PARA FORMAR CÓDIGOS Y NOMBRES COMPLETOS DE SUBTIPOS VER NOTAS AL PIE DE ESTE ANEXO).</text:span><text:span text:style-name="T1"/></text:p>
+   <table:table table:name="Table1" table:style-name="Table1">
+    <table:table-column table:style-name="Table1.A"/>
+    <table:table-column table:style-name="Table1.B"/>
+    <table:table-column table:style-name="Table1.C"/>
+    <table:table-column table:style-name="Table1.D"/>
+    <table:table-column table:style-name="Table1.E"/>
+    <table:table-column table:style-name="Table1.F"/>
+    <table:table-column table:style-name="Table1.G"/>
+    <table:table-column table:style-name="Table1.H"/>
+    <table:table-row table:style-name="Table1.1">
+     <table:table-cell table:style-name="Table1.A1" table:number-columns-spanned="3" office:value-type="string">
+      <text:p text:style-name="P2" loext:marker-style-name="T1"><text:span text:style-name="T1">TIPO</text:span><text:span text:style-name="T1"/></text:p>
+     </table:table-cell>
+     <table:covered-table-cell/>
+     <table:covered-table-cell/>
+     <table:table-cell table:style-name="Table1.A1" table:number-columns-spanned="3" office:value-type="string">
+      <text:p text:style-name="P2" loext:marker-style-name="T1"><text:span text:style-name="T1">SUBTIPOS</text:span><text:span text:style-name="T1"/></text:p>
+     </table:table-cell>
+     <table:covered-table-cell/>
+     <table:covered-table-cell/>
+     <table:table-cell table:style-name="Table1.A1" table:number-columns-spanned="2" office:value-type="string">
+      <text:p text:style-name="P2" loext:marker-style-name="T1"><text:span text:style-name="T1">MATERIAL BASAL</text:span><text:span text:style-name="T1"/></text:p>
+     </table:table-cell>
+     <table:covered-table-cell/>
+    </table:table-row>
+    <table:table-row table:style-name="Table1.1">
+     <table:table-cell table:style-name="Table1.A1" office:value-type="string">
+      <text:p text:style-name="P2" loext:marker-style-name="T1"><text:span text:style-name="T1">NOMBRE</text:span><text:span text:style-name="T1"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.A1" office:value-type="string">
+      <text:p text:style-name="P2" loext:marker-style-name="T1"><text:span text:style-name="T1">CÓDIGO ORIGINAL</text:span><text:span text:style-name="T1"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.A1" office:value-type="string">
+      <text:p text:style-name="P2" loext:marker-style-name="T1"><text:span text:style-name="T1">CÓDIGO RECTIFI</text:span><text:span text:style-name="T1"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.A1" office:value-type="string">
+      <text:p text:style-name="P2" loext:marker-style-name="T1"><text:span text:style-name="T1">NOMBRE</text:span><text:span text:style-name="T1"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.A1" office:value-type="string">
+      <text:p text:style-name="P2" loext:marker-style-name="T1"><text:span text:style-name="T1">CÓDIGO ORIGINAL</text:span><text:span text:style-name="T1"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.A1" office:value-type="string">
+      <text:p text:style-name="P2" loext:marker-style-name="T1"><text:span text:style-name="T1">CÓDIGO RECTIFI</text:span><text:span text:style-name="T1"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.A1" office:value-type="string">
+      <text:p text:style-name="P2" loext:marker-style-name="T1"><text:span text:style-name="T1">NOMBRE</text:span><text:span text:style-name="T1"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.A1" office:value-type="string">
+      <text:p text:style-name="P2" loext:marker-style-name="T1"><text:span text:style-name="T1">CÓDIGO ORIGINAL (no se rectifica)</text:span><text:span text:style-name="T1"/></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="Table1.1">
+     <table:table-cell table:style-name="Table1.A3" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Ferrítico Púrpura</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.B3" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">I</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.C3" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">1</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.D3" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Típico</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.E3" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">A</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.F3" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">1</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.G3" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Roca ultrabásica</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.H3" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">1</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="Table1.1">
+     <table:table-cell table:style-name="Table1.A4" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Ferralítico Rojo</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.B4" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">II</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.C4" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">2</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.D4" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Concrecionario</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.E4" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">B</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.F4" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">2</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.G4" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Roca ígnea básica</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.H4" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">2</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="Table1.1">
+     <table:table-cell table:style-name="Table1.A5" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Ferralítico Rojo Lixiviado</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.B5" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">III</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.C5" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">3</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.D5" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Laterizado</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.E5" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">C</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.F5" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">3</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.G5" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Roca ígnea intermedia</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.H5" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">3</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="Table1.1">
+     <table:table-cell table:style-name="Table1.A6" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Ferralítico Amarillento</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.B6" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">IV</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.C6" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">4</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.D6" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Hidratado</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.E6" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">D</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.F6" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">4</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.G6" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Roca ígnea subácida</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.H6" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">4</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="Table1.1">
+     <table:table-cell table:style-name="Table1.A7" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Ferralítico Cuarcítico Amarrillo Lixiviado</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.B7" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">V</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.C7" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">5</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.D7" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Lixiviado</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.E7" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">E</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.F7" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">5</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.G7" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Roca ígnea ácida</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.H7" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">5</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="Table1.1">
+     <table:table-cell table:style-name="Table1.A8" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Ferralítico Cuarcítico Amarrillo Rojizo Lixiv</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.B8" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">VI</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.C8" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">6</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.D8" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Gleysoso</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.E8" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">F</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.F8" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">6</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.G8" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Caliza dura</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.H8" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">6</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="Table1.1">
+     <table:table-cell table:style-name="Table1.A9" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Ferralítico Rojo Parduzco Ferromagnesial</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.B9" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">VII</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.C9" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">7</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.D9" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Gleyzado</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.E9" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">G</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.F9" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">7</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.G9" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Caliza suave</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.H9" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">7</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="Table1.1">
+     <table:table-cell table:style-name="Table1.A10" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Fersialítico Pardo Rojizo</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.B10" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">VIII</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.C10" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">8</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.D10" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Plasto</text:span><text:bookmark text:name="_GoBack"/><text:span text:style-name="T2">génico</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.E10" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">H</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.F10" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">8</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.G10" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Arenisca calcárea</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.H10" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">8</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="Table1.1">
+     <table:table-cell table:style-name="Table1.A11" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Pardo sin Carbonatos</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.B11" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">IX</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.C11" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">9</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.D11" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Negro</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.E11" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">J</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.F11" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">9</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.G11" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Esquistos o pizarras normales</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.H11" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">9</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="Table1.1">
+     <table:table-cell table:style-name="Table1.A12" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Pardo con Carbonatos</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.B12" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">X</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.C12" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">10</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.D12" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Negro Grisáceo</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.E12" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">K</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.F12" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">10</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.G12" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Esquistos o pizarras cuarcítico-micáceos</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.H12" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">10</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="Table1.1">
+     <table:table-cell table:style-name="Table1.A13" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Pardo Grisáceo</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.B13" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">XI</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.C13" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">11</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.D13" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Gris</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.E13" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">L</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.F13" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">11</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.G13" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Depósitos silíceos definidos</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.H13" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">11</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="Table1.1">
+     <table:table-cell table:style-name="Table1.A14" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Húmico Carbonático</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.B14" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">XII</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.C14" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">12</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.D14" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Gris Amarillento</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.E14" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">M</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.F14" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">12</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.G14" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Materiales transportados (arcillosos en general)</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.H14" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">12</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="Table1.1">
+     <table:table-cell table:style-name="Table1.A15" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Rendzina Roja</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.B15" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">XIII</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.C15" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">13</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.D15" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Pardo Oscuro</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.E15" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">N</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.F15" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">13</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.G15" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Corteza caolinítica</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.H15" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">13</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="Table1.1">
+     <table:table-cell table:style-name="Table1.A16" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Rendzina Negra</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.B16" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">XIV</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.C16" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">14</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.D16" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Estratificado</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.E16" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">O</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.F16" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">14</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.G16" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Corteza granodiorita o similar</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.H16" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">14</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="Table1.1">
+     <table:table-cell table:style-name="Table1.A17" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Oscuro Plástico Gleyzado</text:span></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.B17" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">XV</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.C17" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">15</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.D17" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Turboso</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.E17" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">P</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.F17" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">15</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.G17" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Depósitos ligeros sobre corteza caolinítica</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.H17" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">15</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="Table1.1">
+     <table:table-cell table:style-name="Table1.A18" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Oscuro Plástico Gleysoso</text:span></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.B18" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">XVI</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.C18" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">16</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.D18" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Turba</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.E18" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Q</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.F18" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">16</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.G18" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Eluvio de esquistos micáceos con venas de cuarzo</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.H18" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">16</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="Table1.1">
+     <table:table-cell table:style-name="Table1.A19" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Oscuro Plástico no Gleyzado</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.B19" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">XVII</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.C19" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">17</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.D19" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Mineral</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.E19" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">R</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.F19" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">17</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.G19" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Materiales transport y cortezas de meteorización (fer o caol)</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.H19" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">17</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="Table1.1">
+     <table:table-cell table:style-name="Table1.A20" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Gley Húmico</text:span></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.B20" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">XVIII</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.C20" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">18</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.D20" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Poco Diferenciado</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.E20" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">S</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.F20" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">18</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.G20" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Materiales transport carbonatados o no carbonatados</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.H20" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">18</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="Table1.1">
+     <table:table-cell table:style-name="Table1.A21" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Gley Ferralítico</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.B21" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">XIX</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.C21" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">19</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.D21" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Diferenciado</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.E21" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">T</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.F21" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">19</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.G21" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Caliza suave sobre arenisca</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.H21" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">19</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="Table1.1">
+     <table:table-cell table:style-name="Table1.A22" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Gley Amarillento Cuarcítico</text:span></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.B22" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">XX</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.C22" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">20</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.D22" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Natural</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.E22" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">U</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.F22" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">20</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.G22" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Depósitos marinos y aluviales antiguos</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.H22" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">20</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="Table1.1">
+     <table:table-cell table:style-name="Table1.A23" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Húmico Marga</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.B23" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">XXI</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.C23" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">21</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.D23" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Antrópico</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.E23" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">V</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.F23" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">21</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.G23" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Esquistos micáceos</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.H23" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">21</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="Table1.1">
+     <table:table-cell table:style-name="Table1.A24" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Pantanoso</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.B24" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">XXII</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.C24" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">22</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.D24" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Compactado</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.E24" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">W</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.F24" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">22</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.G24" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Arenisca silícea</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.H24" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">22</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="Table1.1">
+     <table:table-cell table:style-name="Table1.A25" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Solonchak mangle</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.B25" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">XXIII</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.C25" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">23</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.D25" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Lavado</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.E25" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">X</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.F25" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">23</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.G25" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Materiales aluviales y deluviales recientes</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.H25" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">23</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="Table1.1">
+     <table:table-cell table:style-name="Table1.A26" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Solonchak</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.B26" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">XXIV</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.C26" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">24</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.D26" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Poco Lixiviado</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.E26" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Y</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.F26" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">24</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.G26" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Rocas piroclásticas, tobas, vidrios y otros de origen volcán</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.H26" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">24</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="Table1.1">
+     <table:table-cell table:style-name="Table1.A27" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Solonets</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.B27" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">XXV</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.C27" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">25</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.D27" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Humificado</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.E27" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Z</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.F27" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">25</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.G27" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Corteza de intemperismo redepositada</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.H27" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">25</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="Table1.1">
+     <table:table-cell table:style-name="Table1.A28" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Aluvial</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.B28" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">XXVI</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.C28" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">26</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.D28" table:number-rows-spanned="3" table:number-columns-spanned="3" office:value-type="string">
+      <text:p text:style-name="P4" loext:marker-style-name="T2"/>
+     </table:table-cell>
+     <table:covered-table-cell/>
+     <table:covered-table-cell/>
+     <table:table-cell table:style-name="Table1.G28" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Margas y depósitos orgánicos</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.H28" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">26</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="Table1.1">
+     <table:table-cell table:style-name="Table1.A29" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Arenoso Cuarcítico</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.B29" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">XXVII</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.C29" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">27</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:covered-table-cell table:style-name="Table1.D28"/>
+     <table:covered-table-cell/>
+     <table:covered-table-cell/>
+     <table:table-cell table:style-name="Table1.G29" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Yeso, ahidrítas o rocas salinas</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.H29" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">27</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="Table1.1">
+     <table:table-cell table:style-name="Table1.A30" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Esquelético</text:span></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.B30" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">XXVIII</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.C30" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">28</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+     <table:covered-table-cell table:style-name="Table1.D28"/>
+     <table:covered-table-cell/>
+     <table:covered-table-cell/>
+     <table:table-cell table:style-name="Table1.G30" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Mármol</text:span></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.H30" office:value-type="string">
+      <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">28</text:span><text:span text:style-name="T2"/></text:p>
+     </table:table-cell>
+    </table:table-row>
+   </table:table>
+   <text:p text:style-name="P7" loext:marker-style-name="T2"/>
+   <text:p text:style-name="P6" loext:marker-style-name="T2"><text:span text:style-name="T1">NOTAS IMPORTANTES:</text:span><text:span text:style-name="T2"> Para formar el código completo y nombre completo de los subtipos véase el epígrafe 2.5.3 de las instrucciones. A continuación se ejemplifican los cuatro casos que pueden presentarse.</text:span></text:p>
+   <text:p text:style-name="P6" loext:marker-style-name="T2"><text:span text:style-name="T1">Caso 1:</text:span><text:span text:style-name="T2"> los códigos de tipo y subtipo tienen un solo dígito: tipo Ferralítico Rojo (2); subtipo Típico (1); código completo de subtipo: 201; nombre completo del subtipo: Ferralítico Rojo Típico.</text:span></text:p>
+   <text:p text:style-name="P6" loext:marker-style-name="T3"><text:span text:style-name="T1">Caso 2:</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T3">Tipo con un solo dígito y subtipo con dos: tipo.</text:span></text:p>
+   <text:p text:style-name="P6" loext:marker-style-name="T5"><text:span text:style-name="T4">Hay que tener en cuenta si en el mapa original que se utilice se hicieron cambios en la numeración del subtipo: hasta el R (17) no se hicieron cambios, pero aparecen versiones donde se cambia el orden de la S (18) en adelanta: S (25), T (18), U (19), V (20), W (21), X (22), Y (23), Z (25). En estos casos hay que tomar una de las dos numeraciones para todos los mapas igual. </text:span></text:p>
+  </office:text>
+ </office:body>
+</office:document>
