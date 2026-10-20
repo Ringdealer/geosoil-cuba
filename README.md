@@ -9,9 +9,30 @@
 [![Rasterio](https://img.shields.io/badge/Rasterio-Raster_Processing-4B8BBE)](https://rasterio.readthedocs.io/)
 [![Sentinel-2](https://img.shields.io/badge/Data-Sentinel--2-6A5ACD)](https://dataspace.copernicus.eu/)
 
+
 A geospatial analysis project integrating soil mapping, land-cover information,
 and Sentinel-2 satellite imagery to investigate soil–vegetation relationships
 and agricultural vegetation dynamics in Jaruco, Mayabeque, Cuba.
+
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Objectives](#objectives)
+- [Study Area](#study-area)
+- [Methodology](#methodology)
+  - [Soil and Vegetation Analysis](#soil-and-vegetation-analysis)
+  - [Sentinel-2 and NDVI Analysis](#sentinel-2-and-ndvi-analysis)
+  - [Satellite Acquisition and Quality Screening](#satellite-acquisition-and-quality-screening)
+  - [Regional and Field-Level NDVI Analysis](#regional-and-field-level-ndvi-analysis)
+- [Selected Results](#selected-results)
+- [Technologies](#technologies)
+- [Repository Structure](#repository-structure)
+- [Environment Setup](#environment-setup)
+- [Data Sources and Reproducibility](#data-sources-and-reproducibility)
+- [Limitations](#limitations)
+- [Project Status](#project-status)
+- [Publication](#publication)
+- [Author](#author)
 
 ## Project Overview
 
@@ -273,6 +294,12 @@ This repository documents the GeoSoil-Cuba geospatial portfolio study and its
 associated article. The six core notebooks cover soil preparation, spatial
 integration, satellite acquisition, NDVI processing, and statistical analysis.
 Methods and documentation may be refined as the project evolves.
+
+## Publication
+
+- [Read or download the research article (PDF)](https://raw.githubusercontent.com/Ringdealer/geosoil-cuba/main/docs/publication/article/main.pdf)
+- [View the article source (LaTeX)](docs/publication/article/main.tex)
+- [View the presentation (PDF)](https://raw.githubusercontent.com/Ringdealer/geosoil-cuba/main/docs/publication/article/presentation/geosoil_cuba_presentation.pdf)
 
 ## Author
 
