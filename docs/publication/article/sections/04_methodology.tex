@@ -1,0 +1,412 @@
+\section{Methodology}
+\label{sec:methodology}
+
+The GeoSoil-Cuba workflow integrates soil-map
+preparation, vegetation and land-cover information,
+and Sentinel-2 satellite observations through a
+sequence of spatial processing and analytical
+stages. The methodology addresses soil-map
+coverage and topology, integration of soil and
+vegetation attributes, satellite-image processing,
+and temporal analysis of the Normalized Difference
+Vegetation Index (NDVI).
+
+\subsection{Workflow Overview}
+\label{subsec:workflow-overview}
+
+The main processing stages and their sequence
+are illustrated in \cref{fig:workflow}.
+
+\begin{figure}[H]
+	\centering
+	\input{figures/workflow_diagram.tex}
+	\caption{
+		Simplified GeoSoil-Cuba workflow showing
+		the principal stages of spatial data
+		preparation, integration, and NDVI analysis.
+	}
+	\label{fig:workflow}
+\end{figure}
+
+The workflow comprises five principal stages:
+soil-data inspection and preparation; soil-map
+intersection with the Area of Interest (AOI);
+integration of soil and vegetation information;
+acquisition and quality screening of Sentinel-2
+imagery; and calculation and analysis of NDVI.
+
+The stages were implemented through a series
+of Python notebooks, with QGIS used for the
+visual selection of agricultural sampling areas.
+Intermediate spatial datasets, tables, and
+figures were exported to support quality control,
+reproducibility, and subsequent analysis.
+
+
+\subsection{Soil Data Preparation and AOI Intersection}
+\label{subsec:soil-preparation}
+
+The Mayabeque soil map at a scale of 1:25,000
+was inspected before spatial analysis. The soil
+dataset and the AOI were evaluated for their
+coordinate reference systems and geometry
+characteristics.
+
+The AOI, originally supplied in WGS 84 geographic
+coordinates (EPSG:4326), was transformed to
+NAD27 / Cuba Norte (EPSG:3795), the projected
+coordinate reference system used for soil-map
+analysis.
+
+Soil geometries were checked for validity.
+Invalid geometries were repaired using
+\texttt{make\_valid()}, and resulting geometry
+collections were normalized to polygonal
+geometries where necessary. The original source
+data were preserved, and repaired geometries
+were stored separately for analysis.
+
+Soil features intersecting the AOI were selected
+and clipped to its boundary. The resulting
+dataset was used to assess soil-map coverage
+and calculate the areas represented by mapped
+soil units.
+
+Spatial differences between the AOI and the
+mapped soil coverage were examined alongside
+the water-body dataset to distinguish
+reservoir-related areas from other uncovered
+locations.
+
+Areas not represented by soil polygons and not
+explained by the mapped reservoir were retained
+as unresolved data gaps. No soil classifications
+were assigned to these areas without supporting
+information.
+
+The resulting soil dataset was also examined
+for undefined classification attributes and
+overlapping polygon geometries. These conditions
+were documented as data-quality findings.
+Positive-area overlaps were identified but
+were not automatically eliminated by modifying
+the original soil-unit boundaries.
+
+
+\subsection{Soil--Vegetation Integration}
+\label{subsec:soil-vegetation-integration}
+
+The processed soil layer was integrated with
+existing vegetation and land-cover information
+to support spatial analysis of mapped soil units
+in their vegetation context.
+
+The attributes \texttt{LCNAME}, \texttt{NEWVEG},
+and \texttt{TNC\_CLASS} were retained for
+analysis. Missing or undefined classification
+values were identified during data preparation
+rather than being replaced with unsupported
+categories.
+
+The integrated vector dataset provides a common
+spatial framework for examining the distribution
+of vegetation classifications across mapped
+soil units. It also supports the preparation
+of thematic maps and the examination of spatial
+coverage and classification completeness.
+
+The resulting dataset was exported in GeoPackage
+format for subsequent analysis and cartographic
+representation. The integration of these
+datasets does not, by itself, establish
+statistical or causal relationships between
+soil properties and vegetation conditions.
+
+
+\subsection{Sentinel-2 Acquisition and Quality Screening}
+\label{subsec:sentinel-acquisition}
+
+Sentinel-2 Level-2A imagery was obtained through
+the Copernicus Data Space Ecosystem (CDSE) for
+the period November 2025 to June 2026. Products
+were discovered through the SpatioTemporal Asset
+Catalog (STAC) interface using the geographic
+extent and acquisition period relevant to the
+study area.
+
+The study area intersects Sentinel-2 tiles
+T17QLF and T17QMF. The red band (B04) and
+near-infrared band (B08), both provided at
+10 m spatial resolution, were selected for
+NDVI calculation.
+
+Acquisition records were organized by date,
+satellite, and tile to identify complete B04/B08
+pairs. Incomplete band pairs were excluded
+from NDVI processing.
+
+The Scene Classification Layer (SCL), provided
+at 20 m spatial resolution, was used to support
+quality screening for potentially cloud- and
+shadow-contaminated observations.
+
+The initial satellite inventory contained
+226 observations. Following tile-level processing
+and preparation of the agricultural analysis
+region, 32 acquisition dates were represented
+by analysis-area NDVI rasters. A subsequent
+regional cloud-screening procedure retained
+15 acquisitions meeting the final criterion
+of less than 10\% cloud coverage within the
+agricultural analysis region.
+
+The cloud-coverage threshold was used as an
+acquisition-selection criterion. It does not
+guarantee that all pixels in the retained
+observations are free from clouds, haze, or
+shadows. Cloud screening and numerical NDVI
+validation were therefore treated as distinct
+quality-control procedures.
+
+Regional cloud coverage was calculated
+using SCL classes 8, 9, and 10,
+representing medium-probability clouds,
+high-probability clouds, and thin cirrus,
+respectively.
+
+Cloud shadows, represented by SCL
+class 3, were evaluated separately
+and were not included in the reported
+cloud-coverage percentage.
+
+\subsection{Radiometric Correction and NDVI Calculation}
+\label{subsec:ndvi-method}
+
+Sentinel-2 Level-2A spectral bands are distributed
+as integer digital numbers (DN). Bottom-of-atmosphere
+(BOA) reflectance was calculated using the
+radiometric quantification value and additive
+offset associated with the satellite products:
+
+\begin{equation}
+	\rho_{\mathrm{BOA}} =
+	\frac{DN + O_{\mathrm{BOA}}}{Q_{\mathrm{BOA}}},
+	\label{eq:boa-reflectance}
+\end{equation}
+
+where $DN$ represents the stored pixel value,
+$O_{\mathrm{BOA}}$ is the additive radiometric
+offset, and $Q_{\mathrm{BOA}}$ is the reflectance
+quantification value.
+
+An examination of 111 available Sentinel-2
+product XML metadata files identified a
+quantification value of 10,000 and additive
+offsets of $-1000$ for both B04 and B08.
+The examined products corresponded to
+processing baselines 05.11 and 05.12.
+
+For consistency, these parameters were applied
+to all images used in the analysis, including
+products for which XML metadata were unavailable.
+Consequently, the radiometric parameters were
+not independently verified for every processed
+image.
+
+Under this assumption, reflectance was calculated
+as:
+
+\begin{equation}
+	\rho_{\mathrm{BOA}} =
+	\frac{DN - 1000}{10000}.
+	\label{eq:boa-correction}
+\end{equation}
+
+The Normalized Difference Vegetation Index
+(NDVI) was calculated from the corrected red
+and near-infrared reflectance values:
+
+\begin{equation}
+	\mathrm{NDVI} =
+	\frac{\rho_{\mathrm{B08}}-\rho_{\mathrm{B04}}}
+	{\rho_{\mathrm{B08}}+\rho_{\mathrm{B04}}},
+	\label{eq:ndvi}
+\end{equation}
+
+where $\rho_{\mathrm{B08}}$ represents
+near-infrared BOA reflectance and
+$\rho_{\mathrm{B04}}$ represents red BOA
+reflectance.
+
+The additive radiometric offsets were applied
+before NDVI calculation. Although a common
+multiplicative factor cancels in the normalized
+difference, an additive offset does not.
+Consequently, the treatment of the additive
+offset affects the calculated NDVI values.
+
+Pixels containing zero digital numbers,
+nonfinite values, negative corrected reflectance,
+or nonpositive reflectance sums were excluded.
+Calculated NDVI values outside the theoretical
+interval $[-1,1]$ were also rejected.
+
+Invalid pixels were assigned a NoData value
+of $-9999$. The resulting NDVI rasters were
+exported as single-band, 32-bit floating-point
+GeoTIFF files.
+
+
+\subsection{NDVI Mosaicking and Spatial Extraction}
+\label{subsec:ndvi-processing}
+
+NDVI was initially calculated independently
+for each complete Sentinel-2 B04/B08 tile pair.
+
+For acquisition dates with both required tiles,
+the corresponding tile-level NDVI rasters from
+T17QLF and T17QMF were mosaicked to provide
+spatial coverage across the analysis region.
+
+The agricultural analysis region was defined
+using five polygons from the integrated
+soil--vegetation dataset.
+
+Four polygons were associated with
+Ferralítico Rojo Típico
+(Typical Red Ferrallitic Soil), and
+one was associated with
+Ferralítico Amarillento Típico
+(Typical Yellowish Ferrallitic Soil).
+
+The selected polygons were combined
+into a unified analysis geometry
+covering approximately 16.22~km$^2$.
+This geometry was used consistently
+for regional NDVI extraction across
+the selected Sentinel-2 acquisitions.
+
+The geometry of the selected agricultural
+analysis region was used to define the
+extraction area. The relevant vector geometry
+was transformed from EPSG:3795 to EPSG:32617,
+the coordinate reference system of the
+Sentinel-2 rasters, before spatial extraction.
+
+The mosaics were cropped to the analysis
+geometry and exported as GeoTIFF files at
+10 m spatial resolution.
+
+The processing inventory contained 64
+tile-level NDVI rasters and 32 analysis-area
+NDVI rasters, corresponding to 32 acquisition
+dates. These counts describe the processed
+inventory before the final regional cloud
+screening used to select the 15 acquisitions
+for temporal analysis.
+
+
+\subsection{QGIS-Based Selection of Potato Fields}
+\label{subsec:qgis-potato-fields}
+
+QGIS was used to identify three potato fields
+within the processed agricultural region.
+The selected locations were verified using
+local knowledge of the study area and were
+used for a more focused examination of
+vegetation-index variability.
+
+The sampling areas were digitized as three
+separate circular polygons and overlaid on
+the processed NDVI rasters for visual
+inspection. These polygons represent
+selected sampling areas rather than surveyed
+field boundaries.
+
+The same three sampling polygons were used
+to extract NDVI observations for the available
+acquisition dates, allowing temporal
+comparisons within and between the sampled
+areas.
+
+The field-level dataset contained 45
+field-date observations, corresponding to
+three sampling areas evaluated over 15
+Sentinel-2 acquisition dates. For each
+sampling area and date, the extracted data
+were summarized using the number of valid
+pixels, mean NDVI, median NDVI, and standard
+deviation.
+
+The resulting dataset supports comparisons
+of temporal NDVI patterns among the three
+sampled areas. Because the sampling polygons
+represent selected locations rather than
+a comprehensive survey of potato cultivation,
+the results should not be interpreted as
+representative of every potato field in
+the study region.
+
+
+\subsection{Raster Validation and Temporal Sampling}
+\label{subsec:raster-validation}
+
+The analysis-area NDVI rasters were validated
+to assess their spatial and numerical
+consistency.
+
+Validation included checks of the coordinate
+reference system, spatial resolution, raster
+dimensions, data type, number of bands,
+NoData representation, and range of valid
+NDVI values.
+
+The expected raster characteristics were
+EPSG:32617, 10 m spatial resolution, a single
+32-bit floating-point band, and a NoData
+value of $-9999$. Valid NDVI values were
+required to fall within the interval $[-1,1]$.
+
+A 15-date temporal sampling design was used
+to examine vegetation-index variability across
+three broad periods: November--February,
+March--April, and May--June. Candidate
+acquisitions were evaluated according to
+temporal distribution and the availability
+of suitable observations.
+
+Only dates represented by processed and
+validated imagery were included in the
+subsequent temporal analysis.
+
+
+\subsection{Temporal and Agricultural-Region Analysis}
+\label{subsec:temporal-analysis}
+
+The accepted NDVI observations were analyzed
+to characterize temporal variation in
+vegetation-index values within the agricultural
+analysis region and the three selected
+sampling areas.
+
+Regional NDVI summaries were used to examine
+changes across acquisition dates. Field-level
+summaries were used to compare the mean,
+median, and variability of NDVI within each
+sampling polygon over the same observation
+period.
+
+Tables and plots were generated to examine
+temporal trends and differences among
+the sampled areas. The analysis was
+descriptive and focused on the distribution
+and evolution of satellite-derived NDVI
+values.
+
+The resulting observations provide information
+about vegetation-index variability during
+the study period. They are not direct
+measurements of crop yield, soil properties,
+or agricultural management, and they do not
+independently establish the causes of
+observed temporal changes.

@@ -1,0 +1,278 @@
+\section{Discussion and Limitations}
+\label{sec:discussion}
+
+\subsection{Spatial Data Integration and Map Completeness}
+
+The results demonstrate the importance of evaluating
+geometric consistency and spatial coverage before using
+historical soil cartography in contemporary GIS analysis.
+Within the 178.47~km$^2$ Area of Interest (AOI), the
+soil polygons covered approximately 162.852~km$^2$,
+measured as their geometric union in EPSG:3795.
+Of the 15.62~km$^2$ not covered by soil polygons,
+approximately 11.42~km$^2$ corresponded to mapped
+water surfaces, leaving 4.20~km$^2$ of non-water gaps.
+
+Distinguishing water surfaces from unresolved gaps
+prevents the absence of terrestrial soil polygons
+over the reservoir from being incorrectly interpreted
+as a soil-mapping defect. The remaining gaps require
+examination against the original cartography and
+other authoritative spatial sources before they
+can be classified or filled.
+
+Topology checks identified 90 polygon pairs with
+positive-area intersections. Their cumulative
+pairwise overlap area was approximately
+0.054919~km$^2$. Although small relative to the
+mapped extent, these overlaps can introduce
+duplicate area contributions in spatial summaries
+and overlay operations.
+
+The original geometries were preserved to maintain
+data provenance. Consequently, the processed dataset
+should not be described as fully topologically
+corrected. Area statistics based on sums of individual
+polygons must be distinguished from statistics based
+on their geometric union. Furthermore, cumulative
+pairwise overlap areas do not necessarily equal the
+geographic area affected by overlaps when three or
+more polygons intersect.
+
+Area calculations also varied slightly with the
+coordinate reference system (CRS). In EPSG:3795,
+the sum of individual polygon areas was
+162.907~km$^2$, while their geometric union covered
+162.852~km$^2$. After reprojection to EPSG:32617,
+the corresponding values were 162.820~km$^2$
+and 162.766~km$^2$, respectively. The union area
+decreased by approximately 0.086~km$^2$
+(0.053\%) after reprojection. In both CRSs,
+the difference between the polygon-area sum and
+the geometric union remained approximately
+0.055~km$^2$, consistent with the contribution
+of overlapping polygons to the summed area.
+These results emphasize the need to specify the
+CRS and area-calculation method when reporting
+spatial coverage.
+
+The integration of soil and vegetation polygons
+provides a common spatial framework for examining
+mapped attributes. Nevertheless, spatial coincidence
+does not establish that a soil class determines
+the observed vegetation condition. The source
+layers may differ in production date, mapping
+purpose, classification criteria, and positional
+accuracy. These differences limit the interpretation
+of direct spatial comparisons.
+
+An additional area-accounting issue concerns the
+vegetation dataset. The four reported vegetation
+class areas sum to approximately 178.47~km$^2$,
+whereas the stated vegetation coverage is
+161.93~km$^2$. Their mutual exclusivity, possible
+overlaps, and the corresponding area-calculation
+procedures must therefore be verified before the
+categories can be interpreted as an additive
+partition of the AOI.
+
+
+\subsection{Interpretation of Regional NDVI Dynamics}
+
+The 15 retained Sentinel-2 observations show
+substantial temporal variation within the selected
+16.22~km$^2$ agricultural region.
+
+Mean NDVI declined from approximately 0.688
+on 3 November 2025 to 0.466 on 15 March 2026,
+then varied during April and May before reaching
+approximately 0.737 on 16 June 2026.
+
+The boxplots, density curves, and spatial maps
+indicate that these changes involved both
+regional central tendency and the spatial
+distribution of NDVI values.
+
+These observations are consistent with changes
+in vegetation conditions across an actively
+managed agricultural landscape, but they do
+not independently identify their causes.
+
+The selected region contains multiple agricultural
+polygons rather than an independently verified
+single-crop planting area. Consequently, its
+aggregate trajectory cannot be interpreted as
+a potato growth curve.
+
+Changes in crop composition, planting and
+harvesting schedules, vegetation regrowth,
+weeds, moisture conditions, and residual
+image contamination could contribute to
+the observed signal.
+
+In particular, the June increase cannot be
+attributed to a specific crop or management
+practice without additional field evidence.
+
+The regional analysis is descriptive rather
+than causal. The association of the selected
+polygons with mapped Ferrallitic soil units
+provides geographic context, but the analysis
+does not control for irrigation, agricultural
+management, crop identity, or other potential
+confounding factors.
+
+The results therefore do not support claims
+that one mapped soil class produced higher
+NDVI or better crop performance than another.
+
+
+\subsection{Field-Level Observations and Agricultural Context}
+
+The three locally verified potato fields
+provide a more specific spatial reference
+than the broader agricultural region.
+
+Their NDVI trajectories were not uniform.
+Among the retained observations, the highest
+mean NDVI occurred on 15 March 2026 in Field~1,
+on 16 June 2026 in Field~2, and on
+24 January 2026 in Field~3.
+
+These differences illustrate why an aggregate
+regional NDVI curve should not be interpreted
+as representative of every individual field.
+
+However, the dates of the highest observed
+mean NDVI values do not necessarily represent
+the actual seasonal vegetation maxima.
+Unobserved peaks may have occurred between
+the available satellite acquisitions.
+
+Local verification supports the identification
+of the sampling locations as potato fields,
+but it does not establish that potatoes
+occupied each sampled polygon continuously
+throughout the November 2025--June 2026
+observation period.
+
+In particular, post-harvest NDVI may reflect
+subsequent crops, vegetation regrowth, weeds,
+or other vegetation rather than the original
+potato crop.
+
+The circular sampling polygons are
+approximations rather than surveyed field
+boundaries. Their geometry and placement
+may therefore influence the extracted NDVI
+statistics, particularly where sampling
+areas intersect heterogeneous vegetation
+or field boundaries.
+
+Field-specific planting dates, harvesting
+records, accurate field boundaries, and
+repeated ground observations would be
+needed to assign crop-development stages
+and interpret field-level differences
+with greater confidence.
+
+
+\subsection{Remote-Sensing and Reproducibility Limitations}
+
+The regional quality filter retained
+acquisitions with less than 10\% cloud
+coverage according to the selected SCL
+cloud classes.
+
+This acquisition-level threshold reduces
+potential contamination but does not
+guarantee that every pixel used for NDVI
+statistics is free from clouds, cirrus,
+haze, or shadows.
+
+Cloud shadows were evaluated separately,
+and numerical NDVI validity alone does
+not constitute a cloud mask.
+
+Future analyses should implement and
+document explicit pixel-level quality
+masks, including cloud shadows and
+other unsuitable SCL classes, and report
+the number and proportion of usable
+pixels for each acquisition.
+
+The temporal sample is also irregular.
+Fifteen retained dates span November
+2025 through June 2026, with unequal
+intervals between observations.
+
+These data support comparisons among
+the retained acquisition dates but do
+not provide a continuously observed
+vegetation-development curve.
+
+Short-lived changes and seasonal
+maxima may have occurred between
+acquisitions. Furthermore, the nearly
+constant number of numerically valid
+pixels does not independently establish
+equivalent atmospheric quality across
+the observations.
+
+Radiometric preprocessing used a
+quantification factor of 10,000 and
+an additive offset of $-1000$ for
+both spectral bands, based on inspection
+of 111 available product metadata files.
+
+These parameters were also applied
+to some images without individually
+available XML metadata.
+
+Although this assumption was documented,
+product-specific verification remains
+necessary to establish the consistency
+of radiometric preprocessing across
+the full time series.
+
+Unlike a common multiplicative factor,
+an additive radiometric offset does
+not cancel during NDVI calculation.
+Consequently, incorrect offset
+parameters may affect the resulting
+vegetation-index values.
+
+Additional sources of uncertainty
+include the 10~m spatial resolution
+of the spectral bands, the 20~m
+resolution of the SCL, resampling
+choices, and potential positional
+differences between historical
+vector boundaries and satellite
+imagery.
+
+Overall, the principal contribution
+of GeoSoil-Cuba is a documented and
+reproducible workflow for integrating
+historical soil cartography, existing
+land-cover information, and
+satellite-derived vegetation indices.
+
+The results support spatial
+data-quality assessment and
+exploratory vegetation monitoring,
+but they do not independently
+validate soil properties, crop
+yield, or causal relationships
+between soil classes and
+agricultural performance.
+
+The principal priorities for
+further development are targeted
+topology review, harmonized area
+accounting, product-specific
+radiometric verification,
+explicit pixel-level quality
+masking, and field observations
+aligned with satellite
+acquisition dates.

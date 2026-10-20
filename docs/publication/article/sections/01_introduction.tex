@@ -1,0 +1,89 @@
+
+\section{Introduction}
+\label{sec:introduction}
+
+Soil characteristics and vegetation conditions are closely related
+components of terrestrial ecosystems. Understanding their spatial
+relationships is important for agricultural assessment, land-resource
+management, and environmental monitoring. Geographic Information
+Systems (GIS) and satellite remote sensing provide complementary
+sources of information for investigating these relationships across
+different spatial and temporal scales.
+
+Conventional soil maps describe the spatial distribution of soil
+types and associated characteristics. However, integrating these
+datasets with contemporary geospatial information may require
+coordinate reference system harmonization, geometry validation,
+spatial clipping, attribute interpretation, and assessment of
+mapping completeness. These operations are particularly relevant
+when working with historical cartographic datasets that were
+originally developed using formats and classification systems
+different from those commonly employed in modern geospatial
+workflows.
+
+Satellite observations complement soil mapping by providing
+repeated measurements of land-surface conditions. In particular,
+the Sentinel-2 mission supplies multispectral imagery suitable
+for vegetation monitoring. The Normalized Difference Vegetation
+Index (NDVI), calculated from red and near-infrared reflectance,
+provides an indirect indicator of vegetation greenness and canopy
+development. Temporal NDVI observations can characterize changes
+in vegetation conditions, although their interpretation depends
+on land cover, acquisition quality, and agricultural context.
+
+GeoSoil-Cuba is an open-source geospatial analysis project
+developed to integrate soil mapping, land-cover information,
+and Sentinel-2 satellite imagery within a reproducible
+Python-based workflow. The project focuses on a study area
+in Jaruco, Mayabeque Province, Cuba, using a 1:25,000-scale
+soil map as the primary spatial framework for subsequent
+soil--vegetation analysis.
+
+The workflow has two complementary analytical components. The
+first prepares and evaluates the soil dataset through geometry
+validation and repair, coordinate reference system harmonization,
+spatial intersection and clipping, classification interpretation,
+and soil-map coverage assessment. Water-body information helps
+distinguish areas excluded from terrestrial soil mapping from
+unresolved gaps in the source dataset. The second component
+processes Sentinel-2 observations to examine temporal NDVI
+variability in a selected agricultural region and in three
+locally verified potato-field samples. Together, these components
+provide spatially organized datasets and exploratory vegetation
+observations without presuming a causal relationship between
+mapped soil classes and vegetation dynamics.
+
+The main objectives of this study are to:
+
+\begin{enumerate}
+	
+	\item Prepare and validate the existing soil cartographic
+	information for geospatial analysis within the selected
+	Area of Interest (AOI).
+	
+	\item Evaluate the spatial completeness and classification
+	consistency of the soil dataset, distinguishing mapped
+	water bodies from unresolved soil-data gaps.
+	
+	\item Integrate the processed soil information with
+	land-cover classifications and organize it for analysis
+	alongside Sentinel-2 observations.
+	
+	\item Process Sentinel-2 imagery and characterize temporal
+	NDVI variability within a selected agricultural region.
+	
+	\item Compare NDVI observations from three locally verified
+	potato-field samples, recognizing the limits of inferring
+	crop development from satellite reflectance alone.
+	
+\end{enumerate}
+
+The contribution of GeoSoil-Cuba lies primarily in the
+integration, validation, and documentation of heterogeneous
+geospatial datasets through an open-source analytical workflow.
+Rather than proposing a new soil classification system or
+establishing causal relationships between soil properties and
+vegetation performance, the project provides a documented
+framework for exploratory soil--vegetation analysis that can
+be extended through additional satellite observations,
+field measurements, and spatial datasets.

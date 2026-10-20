@@ -1,0 +1,74 @@
+\section{Conclusions and Future Work}
+\label{sec:conclusions}
+
+GeoSoil-Cuba demonstrates an open-source geospatial
+workflow for preparing historical soil cartography,
+integrating soil and vegetation attributes, and
+examining Sentinel-2 NDVI observations within an
+agricultural landscape in Jaruco, Mayabeque, Cuba.
+The analysis combines vector-data validation,
+coordinate reference system harmonization,
+spatial overlay, satellite-image processing,
+and temporal vegetation-index analysis within
+a documented GIS and Python environment.
+
+Within the 178.47~km$^2$ study area, the soil
+coverage assessment reported approximately
+162.85~km$^2$ of mapped soil units. Accounting
+for mapped water surfaces reduced the remaining
+non-water soil-data gaps to approximately
+4.20~km$^2$, equivalent to 2.35\% of the AOI.
+Topology assessment identified 90 overlapping
+polygon pairs with a cumulative pairwise overlap
+area of approximately 0.054919~km$^2$.
+These findings highlight the importance of
+evaluating spatial coverage, geometric consistency,
+and area-accounting procedures before interpreting
+historical soil-map information.
+
+Satellite processing produced 32 regional NDVI
+rasters, of which 15 acquisitions satisfied
+the regional cloud-coverage criterion.
+Within the selected 16.22~km$^2$ agricultural
+region, mean NDVI declined between November 2025
+and March 2026, followed by fluctuations and
+an increase by June 2026. A complementary
+analysis of three locally verified potato fields
+revealed different temporal NDVI trajectories,
+illustrating the importance of distinguishing
+field-level observations from regional aggregates.
+
+The findings characterize spatial and temporal
+patterns in the available datasets but do not
+establish crop phenological stages, agricultural
+productivity, or causal relationships between
+soil classes and vegetation conditions.
+Interpretation remains constrained by uncertainties
+in historical mapping, unresolved topology and
+area-accounting discrepancies, irregular satellite
+sampling, residual cloud contamination, and
+incomplete field and radiometric metadata
+verification.
+
+Future development should prioritize reconciling
+soil and vegetation area calculations, reviewing
+overlapping soil polygons and remaining non-water
+gaps, verifying radiometric parameters for
+individual satellite products, and implementing
+explicit pixel-level cloud and shadow masking.
+Additional improvements should include accurate
+agricultural field boundaries, planting and
+harvesting records, and ground observations
+corresponding to satellite acquisition dates.
+These developments would provide a stronger
+basis for evaluating vegetation variability
+across mapped soil units and agricultural
+management conditions.
+
+The resulting framework provides a foundation
+for further geospatial research and potential
+application in other regions where historical
+soil cartography, ancillary land-cover data,
+and contemporary satellite observations must
+be integrated while preserving data provenance
+and documenting uncertainty.

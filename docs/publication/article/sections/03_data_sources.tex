@@ -1,0 +1,317 @@
+\section{Data Sources and Technical Environment}
+\label{sec:data-sources}
+
+This study integrates existing soil and ancillary
+spatial datasets with Sentinel-2 satellite imagery
+to examine soil-map coverage, vegetation
+distribution, and temporal vegetation dynamics
+within the study area which were obtained
+from the Sentinel-2 Level-2A product collection
+through the Copernicus Data Space Ecosystem (CDSE) \mkbibbrackets{\cite{drusch2012sentinel2}}. The workflow combines
+vector-data preparation and spatial analysis
+with satellite image processing and NDVI-based
+assessment.
+
+The principal datasets, their spatial
+characteristics, and their roles in the analysis
+are summarized in
+\Cref{tab:data-sources}.
+
+\begin{table}[H]
+	\centering
+	\caption{Summary of spatial and satellite data
+		sources used in the GeoSoil-Cuba workflow.}
+	\label{tab:data-sources}
+	\small
+	\begin{tabularx}{\textwidth}{
+			@{}
+			p{2.6cm}
+			p{2.5cm}
+			p{2.8cm}
+			X
+			@{}
+		}
+		\toprule
+		\textbf{Dataset} &
+		\textbf{Source or format} &
+		\textbf{Spatial reference} &
+		\textbf{Role in the study} \\
+		\midrule
+		
+		Soil map &
+		Faculty of Geography, University of Havana;
+		MapInfo TAB &
+		NAD 27 Cuba datum; Lambert Conformal Conic;
+		metres &
+		Delineation and analysis of mapped soil units
+		within the study area. Original scale:
+		1:25,000. \\
+		
+		Area of Interest (AOI) &
+		KML boundary &
+		WGS 84 geographic coordinates
+		(EPSG:4326) &
+		Defines the study-area boundary and spatial
+		extent of the analysis. \\
+		
+		Water bodies &
+		Faculty of Geography, University of Havana;
+		MapInfo TAB &
+		As supplied; harmonized for spatial analysis &
+		Identification of water surfaces and
+		interpretation of apparent gaps in soil-map
+		coverage. \\
+		
+		Vegetation and land cover &
+		Faculty of Geography, University of Havana;
+		vector dataset &
+		As supplied; harmonized for spatial analysis &
+		Integration of soil units with vegetation
+		and land-cover attributes. \\
+		
+		Sentinel-2 imagery &
+		Copernicus Data Space Ecosystem;
+		Level-2A products &
+		Tiles T17QLF and T17QMF;
+		bands B04 and B08 at 10 m resolution;
+		SCL at 20 m &
+		Satellite-based vegetation analysis,
+		including NDVI calculation and temporal
+		assessment. Search period: November 2025
+		to June 2026. \\
+		
+		\bottomrule
+	\end{tabularx}
+\end{table}
+
+
+\subsection{Soil and Ancillary Spatial Data}
+\label{subsec:soil-data}
+
+The primary soil dataset consists of a
+1:25,000-scale soil map of Mayabeque Province,
+Cuba, distributed in MapInfo format. The dataset
+contains polygon geometries representing mapped
+soil units and associated attributes describing
+soil types and subtypes according to the
+classification system used in the source database.
+
+The soil map uses the NAD27 / Cuba Norte
+projected coordinate reference system
+(EPSG:3795). Its original projection definition
+was examined and standardized before spatial
+processing.
+
+The Area of Interest (AOI) was defined using a
+polygon provided in Keyhole Markup Language
+(KML) format, originally referenced to WGS 84
+(EPSG:4326). The AOI was transformed to the
+soil map's projected coordinate reference system
+for the relevant spatial operations.
+
+An additional water-body dataset, also supplied
+in MapInfo format, was incorporated to identify
+the Mampostón reservoir and distinguish mapped
+water surfaces from areas lacking soil-map
+coverage.
+
+The original spatial datasets were preserved
+unchanged. Derived geometries and attributes
+were stored separately to maintain traceability
+throughout the analytical workflow.
+
+The original production dates and authorship
+of the soil and ancillary datasets have not
+been independently verified. Their spatial
+and thematic interpretation must therefore
+account for the characteristics and limitations
+of the supplied source data.
+
+
+\subsection{Vegetation and Land-Cover Data}
+\label{subsec:land-cover-data}
+
+Vegetation and land-cover information was obtained
+from an existing vector dataset containing
+categorical descriptions of vegetation and
+land-cover units.
+
+The dataset includes the attributes
+\texttt{LCNAME}, \texttt{NEWVEG}, and
+\texttt{TNC\_CLASS}, which provide complementary
+classification information.
+
+These attributes were examined and incorporated
+into the spatial integration workflow to
+characterize vegetation and land-cover
+categories associated with the mapped soil units.
+
+The vegetation dataset was processed independently
+from the Sentinel-2 imagery. Its categorical
+classifications therefore represent information
+from an existing spatial dataset rather than
+land-cover classes derived from the satellite
+observations analyzed in this study.
+
+The production date and original classification
+methodology of the vegetation dataset have not
+been independently verified. Consequently,
+its temporal correspondence with the
+2025--2026 satellite observations cannot be
+assumed.
+
+The soil, water-body, and vegetation-cover
+datasets were provided courtesy of the Faculty
+of Geography, University of Havana, Cuba
+(Facultad de Geografía, Universidad de La Habana),
+with permission for research, analysis, and
+public redistribution. The institution is
+acknowledged as the data provider; the original
+production dates and authorship of these datasets
+have not been independently verified.
+
+
+\subsection{Sentinel-2 Satellite Imagery}
+\label{subsec:sentinel-data}
+
+Multispectral satellite observations were obtained
+from the Sentinel-2 Level-2A product collection
+through the Copernicus Data Space Ecosystem
+(CDSE).
+
+Satellite products were discovered using the
+SpatioTemporal Asset Catalog (STAC) interface,
+which supports searches based on geographic
+extent, acquisition date, and product metadata.
+
+The catalogue search covered the period from
+November 2025 through June 2026. Products
+associated with Sentinel-2 tiles T17QLF and
+T17QMF were considered for the study area.
+
+The analysis focused on the red (B04) and
+near-infrared (B08) spectral bands, both provided
+at a spatial resolution of 10 m. The Scene
+Classification Layer (SCL), available at a
+spatial resolution of 20 m, was used to support
+quality screening and the assessment of
+potential cloud and shadow contamination.
+
+The initial satellite inventory contained
+226 observations. Following image processing,
+32 NDVI rasters were prepared for the selected
+agricultural analysis region. A subsequent
+regional cloud-screening procedure retained
+15 acquisitions satisfying the criterion of
+less than 10\% cloud coverage within that region.
+
+This regional criterion reduced the influence
+of cloud contamination but did not establish
+that all pixels in the retained observations
+were free of clouds, haze, or shadows.
+
+Detailed acquisition selection, radiometric
+correction, quality screening, and NDVI
+calculation procedures are described in
+\Cref{sec:methodology}.
+
+
+\subsection{Software and Technical Environment}
+\label{subsec:software}
+
+GeoSoil-Cuba was developed using an open-source
+Python geospatial environment managed through
+Conda, with packages obtained primarily from
+the \texttt{conda-forge} channel.
+
+The documented environment uses Python 3.12.14
+and GDAL 3.13.3.
+
+Vector-data processing was performed using
+GeoPandas 1.1.4 and Shapely 2.1.2, while
+coordinate reference system transformations
+were supported by PyProj 3.8.0.
+
+Raster processing was supported by Rasterio
+1.5.1, including the handling of georeferenced
+satellite imagery and derived NDVI products.
+
+NumPy 2.5.3 and Pandas 3.0.5 provided numerical
+and tabular data processing capabilities,
+respectively. Matplotlib 3.11.1 was used to
+generate analytical figures and visualizations.
+
+Sentinel-2 catalogue discovery was supported
+by PySTAC Client 0.9.0, while Requests 2.34.2
+provided HTTP communication functionality.
+
+The analytical workflow was organized into
+Jupyter notebooks, with JupyterLab 4.6.3
+included in the documented environment.
+QGIS 3.44.14-Solothurn was also used for the visual selection
+and digitization of the three potato-field
+sampling polygons.
+
+The Conda environment specification and project
+source code provide a record of the principal
+software dependencies used in the analysis.
+The software versions reported here correspond
+to the documented environment and should be
+verified against the final environment
+specification before publication.
+
+
+\subsection{Data Characteristics and Limitations}
+\label{subsec:data-limitations}
+
+The integration of historical soil cartography,
+existing vegetation classifications, and
+satellite observations introduces differences
+in spatial representation, classification
+structure, and temporal coverage.
+
+The soil dataset represents mapped soil units
+rather than direct measurements of contemporary
+soil conditions. Its interpretation is therefore
+constrained by the characteristics of the source
+cartographic dataset, including its original
+scale, soil classification system, and spatial
+completeness. The dataset uses a Lambert
+Conformal Conic projection referenced to the
+NAD 27 Cuba datum, with coordinates expressed
+in metres. The original map scale and
+classification metadata should be considered
+when interpreting the spatial detail and
+thematic meaning of the mapped soil units.
+
+The vegetation dataset provides categorical
+land-cover information, whereas Sentinel-2
+observations describe spectral conditions
+at specific acquisition dates. Because the
+original production date of the vegetation
+dataset has not been verified, these sources
+cannot be assumed to represent the same period.
+
+Satellite-derived vegetation indices may also
+be affected by atmospheric conditions, residual
+cloud or shadow contamination, land-cover
+heterogeneity, radiometric processing choices,
+and the spatial resolution of the imagery.
+
+In addition, radiometric parameters were not
+independently verified for every processed
+Sentinel-2 product. The use of common parameters
+for products with unavailable metadata is
+therefore a methodological assumption that
+should be considered when interpreting the
+derived NDVI values.
+
+These characteristics were considered when
+preparing the datasets and interpreting the
+spatial coverage results and temporal NDVI
+patterns. The combined workflow supports
+geospatial integration and exploratory
+vegetation monitoring but does not, by itself,
+establish causal relationships between soil
+properties, vegetation conditions, and
+agricultural management.

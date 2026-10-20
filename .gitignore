@@ -23,6 +23,9 @@ src/scripts/start_geosoil_jupyter.bat
 
 # trash notebooks
 notebooks/trash
+notebooks/export_markdown_as_md.ipynb
+notebooks/download_sentinel2_metadata.ipynb
+notebooks/download_sentinel2_metadata_II.ipynb
 
 # ============================================================
 # Local configuration and secrets
@@ -78,10 +81,23 @@ data/processed/satellite/
 # External datasets are excluded by default.
 data/external/*
 
-# ============================================================
-# Documentation temporarily excluded
-# ============================================================
-docs/
+# Documentation and publications
+# Keep final publication deliverables under docs/ in Git.
+
+# LaTeX temporary build files
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.bcf
+*.run.xml
+*.nav
+*.snm
 
 # ============================================================
 # Generated outputs

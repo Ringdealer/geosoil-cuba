@@ -1,0 +1,197 @@
+\documentclass[11pt,a4paper]{article}
+
+% --------------------------------------------------
+% Encoding and typography
+% --------------------------------------------------
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+% \usepackage{tgschola}
+% \usepackage{libertinus}
+%\usepackage{tgtermes}
+\usepackage{tgpagella}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows.meta, positioning}
+
+% --------------------------------------------------
+% Page layout
+% --------------------------------------------------
+\usepackage[
+a4paper,
+margin=2.5cm
+]{geometry}
+
+\usepackage{setspace}
+\setstretch{1.15}
+
+\usepackage{float}
+
+% --------------------------------------------------
+% Mathematics and scientific notation
+% --------------------------------------------------
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{siunitx}
+
+% --------------------------------------------------
+% Figures and tables
+% --------------------------------------------------
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{tabularx}
+\usepackage{etoolbox}
+
+\graphicspath{{figures/}}
+
+% --------------------------------------------------
+% Colors and hyperlinks
+% --------------------------------------------------
+\usepackage{xcolor}
+
+\definecolor{geosoilgreen}{HTML}{285943}
+
+\usepackage[
+colorlinks=true,
+linkcolor=geosoilgreen,
+citecolor=geosoilgreen,
+urlcolor=blue
+]{hyperref}
+
+\usepackage{cleveref}
+
+% Figure and table captions
+\captionsetup{
+	font={sf,small},
+	labelfont={bf},
+	justification=centering
+}
+
+% Table contents
+\AtBeginEnvironment{tabular}{\sffamily\small}
+
+% --------------------------------------------------
+% Bibliography
+% --------------------------------------------------
+\usepackage[
+backend=biber,
+style=authoryear,
+sorting=nyt
+]{biblatex}
+
+\addbibresource{references.bib}
+
+
+\DeclareFieldFormat{labelname}{\mkbibbrackets{#1}}
+\DeclareFieldFormat{labeldate}{\mkbibbrackets{#1}}
+
+
+
+% --------------------------------------------------
+% Document metadata
+% --------------------------------------------------
+\title{
+	\textbf{GeoSoil-Cuba}\\[0.3cm]
+	\large
+	Integrating Soil Mapping, Land Cover, and
+	Sentinel-2 Imagery for Geospatial Analysis in Cuba
+}
+
+\author{Ben Tamayo}
+
+\date{October 2026}
+
+% --------------------------------------------------
+% Document
+% --------------------------------------------------
+\begin{document}
+	
+	\maketitle
+	
+	% --------------------------------------------------
+	% Abstract
+	% --------------------------------------------------
+\begin{abstract}
+	
+	GeoSoil-Cuba is an open-source geospatial analysis project
+	that integrates soil mapping, land-cover information, and
+	Sentinel-2 satellite imagery within a reproducible
+	Python-based workflow. The study focuses on Jaruco,
+	Mayabeque Province, Cuba, and combines soil-map preparation
+	and spatial validation with satellite-derived vegetation
+	monitoring. A 1:25,000-scale soil dataset was evaluated
+	within an Area of Interest (AOI) covering approximately
+	178.47~km$^2$. Soil polygons covered 162.85~km$^2$
+	(91.25\% of the AOI), while 4.20~km$^2$ (2.35\%) remained
+	uncovered outside the mapped water-related gaps. Topological
+	assessment identified 90 pairs of soil polygons with
+	positive-area overlaps, highlighting issues requiring
+	further validation. For vegetation monitoring, Sentinel-2
+	Level-2A imagery acquired between November 2025 and June
+	2026 was processed to calculate the Normalized Difference
+	Vegetation Index (NDVI). Fifteen acquisitions met a
+	regional cloud-coverage criterion of less than 10\% within
+	a unified agricultural region of approximately 16.22~km$^2$.
+	Mean NDVI declined from 0.688 in November 2025 to 0.466
+	in March 2026, before increasing to 0.737 in June 2026.
+	A complementary analysis examined NDVI variability in
+	three locally verified potato fields using circular
+	sampling polygons digitized in QGIS. The results
+	demonstrate the utility of integrating historical soil
+	information, land-cover data, and satellite observations
+	in a documented geospatial workflow. However, the observed
+	vegetation-index patterns do not establish causal
+	relationships between soil properties, crop development,
+	and agricultural management.
+	
+\end{abstract}
+	
+	\noindent
+	\textbf{Keywords:}
+	Geospatial Analysis;
+	Soil Mapping;
+	Remote Sensing;
+	Sentinel-2;
+	NDVI;
+	Python;
+	GIS.
+	
+	\vspace{0.5cm}
+	
+	% --------------------------------------------------
+	% Main sections
+	% --------------------------------------------------
+	\input{sections/01_introduction}
+	\input{sections/02_study_area}
+	\input{sections/03_data_sources}
+	\input{sections/04_methodology}
+	\input{sections/05_results}
+	\input{sections/06_discussion}
+	\input{sections/07_conclusions}
+	
+	\section*{Acknowledgments}
+	
+	The author acknowledges the Faculty of Geography,
+	University of Havana, Cuba (Facultad de Geografía,
+	Universidad de La Habana), for providing the soil,
+	water-body, and vegetation-cover datasets used in
+	this study and authorizing their use for research,
+	analysis, and public redistribution.
+	
+	% --------------------------------------------------
+	% AI Assistance and Author Responsibility
+	% --------------------------------------------------
+	
+	\input{sections/08_assistance}
+	
+	
+	
+	% --------------------------------------------------
+	% References
+	% --------------------------------------------------
+	\printbibliography
+	
+\end{document}

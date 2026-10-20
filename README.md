@@ -30,13 +30,16 @@ and examine vegetation-index dynamics over selected agricultural areas.
 
 ## Study Area
 
-The study area is located in Jaruco, Mayabeque Province, Cuba.
+The area of interest (AOI) covers approximately **178.47 km²** in Jaruco,
+Mayabeque Province, western Cuba, including agricultural landscapes, vegetation,
+and the Mampostón reservoir. The AOI was defined from a KML boundary in WGS 84
+(EPSG:4326). Soil-map intersection and area calculations use NAD27 / Cuba Norte
+(EPSG:3795); raster analysis also uses UTM Zone 17N (EPSG:32617).
 
-The analysis combines a broader area of interest with selected agricultural
-polygons used to investigate vegetation dynamics.
-
-Spatial datasets use appropriate projected coordinate reference systems for
-area calculations and raster processing.
+The analysis operates at three complementary scales: the overall AOI for soil
+and land-cover integration, a unified agricultural region for regional NDVI
+analysis, and **three locally verified potato-field samples** digitized in QGIS
+for field-level comparisons.
 
 ## Methodology
 
@@ -73,8 +76,37 @@ The workflow includes raster validation, cloud screening using the
 Scene Classification Layer (SCL), and analysis of selected low-cloud
 observations.
 
-Time-series analysis is performed for selected agricultural polygons and
-the broader agricultural region.
+Time-series analysis covers the broader agricultural region and three
+selected potato-field samples. Field samples provide a targeted comparison,
+not a statistically representative survey of potato cultivation in Cuba.
+
+## Selected Results
+
+The following figures summarize results reported in the accompanying article;
+consult the article and notebooks for definitions, methods, and qualifications.
+
+| Measure | Reported result |
+|---|---|
+| AOI area | Approximately 178.47 km² |
+| Soil-map coverage | Approximately 162.85 km² (91.25% of AOI) |
+| Area outside soil-map coverage | Approximately 15.62 km² |
+| Unmapped water area | Approximately 11.42 km² |
+| Remaining non-water gaps | Approximately 4.20 km² (2.35% of AOI) |
+| Sentinel-2 catalogue inventory | 226 observations, November 2025–June 2026 |
+| Agricultural-region NDVI rasters generated | 32 |
+| Acquisitions retained after regional screening | 15, with less than 10% regional cloud coverage |
+| Retained observation period | 3 November 2025–16 June 2026 |
+| Field-level sampling | Three potato-field polygons across 15 dates (45 field-date observations) |
+
+The soil topology assessment also compared summed polygon areas against the
+geometric union and identified approximately **0.055 km²** of overlapping
+polygon area (as an area-accounting difference). Such differences matter when
+aggregating mapped areas and should not be mistaken for additional land.
+
+The accepted NDVI observations are not evenly distributed in time. The cloud
+threshold reduces, but does not guarantee the absence of, cloud or shadow
+contamination. NDVI patterns alone cannot establish crop yield, crop health,
+or a causal relationship with soil type.
 
 ## Technologies
 
@@ -87,6 +119,7 @@ the broader agricultural region.
 - pandas
 - Matplotlib
 - QGIS
+- Linux (Xubuntu / Ubuntu)
 - Sentinel-2 Level-2A imagery
 - Conda
 
@@ -162,15 +195,16 @@ generalized to all agricultural land in Cuba.
 
 ## Project Status
 
-This repository documents an ongoing geospatial portfolio project.
-Methods, datasets, and results may be refined as validation and
-documentation progress.
+This repository documents the GeoSoil-Cuba geospatial portfolio study and its
+associated article. The six core notebooks cover soil preparation, spatial
+integration, satellite acquisition, NDVI processing, and statistical analysis.
+Methods and documentation may be refined as the project evolves.
 
 ## Author
 
-**Ringdealer**
+**Ben Tamayo**
 
-Full-Stack Developer | Python | Geospatial Analysis | Remote Sensing
+Full-Stack Developer | Python | GIS | Remote Sensing
 
 - GitHub: [@ringdealer](https://github.com/ringdealer)
 - LinkedIn: [Profile](https://www.linkedin.com/in/ringdealer/)
