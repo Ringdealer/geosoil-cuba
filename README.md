@@ -9,8 +9,6 @@
 [![Rasterio](https://img.shields.io/badge/Rasterio-Raster_Processing-4B8BBE)](https://rasterio.readthedocs.io/)
 [![Sentinel-2](https://img.shields.io/badge/Data-Sentinel--2-6A5ACD)](https://dataspace.copernicus.eu/)
 
-Your existing project introduction goes here.
-
 A geospatial analysis project integrating soil mapping, land-cover information,
 and Sentinel-2 satellite imagery to investigate soil–vegetation relationships
 and agricultural vegetation dynamics in Jaruco, Mayabeque, Cuba.
