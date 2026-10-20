@@ -1,5 +1,16 @@
 # GeoSoil-Cuba: Soil Mapping and Agricultural Vegetation Analysis
 
+# GeoSoil-Cuba
+
+[![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![Jupyter](https://img.shields.io/badge/Jupyter-Notebooks-F37626?logo=jupyter&logoColor=white)](https://jupyter.org/)
+[![QGIS](https://img.shields.io/badge/QGIS-Geospatial_Analysis-589632?logo=qgis&logoColor=white)](https://qgis.org/)
+[![GDAL](https://img.shields.io/badge/GDAL-Geospatial_Data-5CAE58)](https://gdal.org/)
+[![Rasterio](https://img.shields.io/badge/Rasterio-Raster_Processing-4B8BBE)](https://rasterio.readthedocs.io/)
+[![Sentinel-2](https://img.shields.io/badge/Data-Sentinel--2-6A5ACD)](https://dataspace.copernicus.eu/)
+
+Your existing project introduction goes here.
+
 A geospatial analysis project integrating soil mapping, land-cover information,
 and Sentinel-2 satellite imagery to investigate soil–vegetation relationships
 and agricultural vegetation dynamics in Jaruco, Mayabeque, Cuba.
@@ -65,20 +76,83 @@ to distinguish incomplete data from mapped soil and vegetation classes.
 
 ### Sentinel-2 and NDVI Analysis
 
-Sentinel-2 Level-2A imagery provides red (B04) and near-infrared (B08) bands
-for NDVI calculation.
+Sentinel-2 Level-2A imagery was used to analyze vegetation conditions within
+the study area between November 2025 and June 2026. The analysis used the
+red (B04) and near-infrared (B08) spectral bands, both provided at a spatial
+resolution of 10 m.
 
-NDVI is calculated as:
+Before calculating the Normalized Difference Vegetation Index (NDVI), the
+stored digital numbers (DN) were converted to bottom-of-atmosphere (BOA)
+reflectance using radiometric quantification and offset parameters.
 
-**NDVI = (B08 − B04) / (B08 + B04)**
+The reflectance correction applied in the project was:
 
-The workflow includes raster validation, cloud screening using the
-Scene Classification Layer (SCL), and analysis of selected low-cloud
-observations.
+$$
+\rho_{\mathrm{BOA}} =
+\frac{DN - 1000}{10000}
+$$
 
-Time-series analysis covers the broader agricultural region and three
-selected potato-field samples. Field samples provide a targeted comparison,
-not a statistically representative survey of potato cultivation in Cuba.
+These parameters were verified against 111 available Sentinel-2 product
+metadata files and applied consistently across the processed imagery.
+
+NDVI was calculated using the corrected red and near-infrared reflectance
+values:
+
+$$
+\mathrm{NDVI} =
+\frac{\rho_{\mathrm{B08}}-\rho_{\mathrm{B04}}}
+{\rho_{\mathrm{B08}}+\rho_{\mathrm{B04}}}
+$$
+
+where:
+
+- $\rho_{\mathrm{B08}}$ represents near-infrared BOA reflectance.
+- $\rho_{\mathrm{B04}}$ represents red BOA reflectance.
+
+The satellite-processing workflow included raster validation, radiometric
+correction, cloud screening, NDVI calculation, and temporal analysis.
+
+#### Satellite Acquisition and Quality Screening
+
+The initial Sentinel-2 inventory contained 226 observations acquired between
+November 2025 and June 2026, covering tiles T17QLF and T17QMF.
+
+Following image processing, 32 NDVI rasters were generated for the selected
+agricultural region.
+
+The Scene Classification Layer (SCL), provided at 20 m spatial resolution,
+was used to evaluate cloud contamination. Cloud coverage was calculated
+using SCL classes 8, 9, and 10, corresponding to medium-probability clouds,
+high-probability clouds, and thin cirrus. Cloud shadows (SCL class 3) were
+evaluated separately.
+
+A final regional cloud-coverage threshold of less than 10% retained
+15 acquisitions for temporal and spatial analysis, spanning November 3,
+2025, to June 16, 2026.
+
+This screening reduced the influence of cloud contamination but did not
+guarantee that all retained pixels were free of clouds, haze, or shadows.
+
+#### Regional and Field-Level NDVI Analysis
+
+The NDVI analysis was conducted at two complementary spatial scales:
+
+1. **Regional agricultural analysis:** Examined temporal changes and spatial
+   distributions of NDVI across a selected agricultural region, using
+   time-series statistics, distribution plots, and raster visualizations.
+
+2. **Potato-field analysis:** Examined NDVI observations from three locally
+   verified potato fields represented by circular sampling polygons
+   digitized in QGIS. These samples provided a targeted assessment of
+   vegetation conditions at the field level.
+
+The field-level analysis complements the broader regional assessment but
+does not constitute a statistically representative survey of potato
+cultivation in Cuba.
+
+Together, these analyses demonstrate the integration of Sentinel-2 satellite
+imagery, Python-based raster processing, QGIS, and statistical visualization
+for monitoring vegetation dynamics in an agricultural landscape.
 
 ## Selected Results
 
@@ -127,6 +201,8 @@ or a causal relationship with soil type.
 
 ```text
 geosoil-cuba/
+├── docs/
+│   └── publication/
 ├── data/
 │   └── processed/
 ├── notebooks/
