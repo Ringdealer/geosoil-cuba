@@ -9,6 +9,8 @@
 [![Rasterio](https://img.shields.io/badge/Rasterio-Raster_Processing-4B8BBE)](https://rasterio.readthedocs.io/)
 [![Sentinel-2](https://img.shields.io/badge/Data-Sentinel--2-6A5ACD)](https://dataspace.copernicus.eu/)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23516974.svg)](https://doi.org/10.5281/zenodo.23516974)
+
 
 A geospatial analysis project integrating soil mapping, land-cover information,
 and Sentinel-2 satellite imagery to investigate soil–vegetation relationships
